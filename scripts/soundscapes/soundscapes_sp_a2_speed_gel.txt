@@ -1,0 +1,200 @@
+"Revo.A2_Speed_Gel.BrokenFoyer" {
+	"dsp" "9"
+
+	"playsoundscape" {
+		"name"	"Base.Air.EerieWind"
+		"volume" "0.6"
+	}
+
+	"playsoundscape" {
+		"name"	"Base.Vegetation.ElevatorBirds"
+	}
+	
+	"playsoundscape" {
+		"name"	"Base.Vegetation.Insects01"
+	}
+}
+
+"Revo.A2_Speed_Gel.Detour"
+{
+	"dsp" "8"
+
+	"playsoundscape" {
+		"name" "Base.Air.IndustrialInterior01"
+		"volume" "0.7"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.Insects01"
+		"volume" "0.3"
+	}
+}
+
+"Revo.A2_Speed_Gel.ButtonRoom"
+{
+	"dsp" "9"
+
+	"playsoundscape" {
+		"name"	"Base.Air.EerieWind"
+		"volume" "0.7"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.Insects01"
+		"volume" "0.6"
+	}
+	"playsoundscape" {
+		"name"  "Base.Destruction.WaterDrips"
+		"volume" "0.8"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.WingFlaps"
+		"volume" "0.3"
+	}
+}
+
+"Revo.A2_Speed_Gel.MainMid"
+{
+	"dsp" "20"
+	"dsp_volume" "0.7"
+
+	"playsoundscape" {
+		"name"	"Base.Air.EerieWind"
+		"volume" "0.1"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.WingFlaps"
+		"volume" 0.7
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.Crows"
+		"volume" 0.7
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.Insects01"
+		"volume" "0.3"
+	}
+}
+
+"Revo.A2_Speed_Gel.Main"
+{
+	"dsp"	"21"
+	"dsp_volume" "0.7"
+	
+	"playsoundscape" {
+		"name"	"Base.Air.EerieWind"
+		"volume" "0.1"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.WingFlaps"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.Crows"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.Insects01"
+		"volume" "0.3"
+	}
+	
+}
+
+"Revo.A2_Speed_Gel.ExitHallway"
+{
+	"dsp" "8"
+
+	"playsoundscape" {
+		"name"	"Base.Air.EerieWind"
+		"volume" "0.7"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.Insects01"
+		"volume" "0.6"
+	}
+	"playsoundscape" {
+		"name"  "Base.Destruction.WaterDrips"
+		"volume" "0.8"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.WingFlaps"
+		"volume" "0.3"
+	}
+}
+
+"Revo.A2_Speed_Gel.ElevatorRoom"
+{
+	"dsp" "9"
+
+	"playsoundscape" {
+		"name"	"Base.Air.EerieWind"
+		"volume" "0.4"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.Insects02"
+		"volume" "0.3"
+	}
+	"playsoundscape" {
+		"name"  "Base.Destruction.WaterDrips"
+		"volume" "0.8"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.ElevatorBirds"
+	}
+}
+
+"Revo.A2_Speed_Gel.ElevatorHallways"
+{
+	"dsp" "9"
+
+	"playsoundscape" {
+		"name"	"Base.Air.EerieWind"
+		"volume" "0.7"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.Insects01"
+		"volume" "0.6"
+	}
+	"playsoundscape" {
+		"name"  "Base.Destruction.WaterDrips"
+		"volume" "0.8"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.WingFlaps"
+		"volume" "0.3"
+	}
+}
+
+"Revo.A2_Speed_Gel.RoomTemperatureRoom"
+{
+	"dsp" "4"
+
+	"playsoundscape" {
+		"name"	"Base.Air.EerieWind"
+		"volume" "0.6"
+	}
+	"playsoundscape" {
+		"name"  "Base.Destruction.WaterDrips"
+		"volume" "0.6"
+	}
+	"playlooping" {
+		"wave" "ambient\industrial\amb_mach_behind_walls_lp_01.wav"
+		"volume" "0.3"
+		"pitch" "100"
+		"attenuation"	"0"
+	}
+}
+
+"Revo.A2_Speed_Gel.Vent"
+{
+	"dsp" "2"
+
+	"playsoundscape" {
+		"name"	"Base.Air.EerieWind"
+		"volume" "0.3"
+	}
+	"playsoundscape" {
+		"name"	"Base.Vegetation.Insects01"
+		"volume" "0.1"
+	}
+	"playsoundscape" {
+		"name"  "Base.Destruction.WaterDrips"
+		"volume" "0.5"
+	}
+}

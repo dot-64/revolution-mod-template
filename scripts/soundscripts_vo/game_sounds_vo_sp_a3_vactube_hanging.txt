@@ -1,0 +1,195 @@
+
+// ==================================================== sp_a3_vactube_hanging
+
+"Revo_Core1.sp_a3_vactube_hanging_00"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_00.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}
+"Revo_Core1.sp_a3_vactube_hanging_01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_01.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}
+"Revo_Core1.sp_a3_vactube_hanging_02_woah"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_02_woah.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}
+"Revo_Core1.sp_a3_vactube_hanging_02_ahh"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_02_ahh.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}
+"Revo_Core1.sp_a3_vactube_hanging_03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_03.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}
+"Revo_Core1.sp_a3_vactube_hanging_04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_04.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}
+"Revo_Core1.sp_a3_vactube_hanging_10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_10.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+		}
+	}
+}
+"Revo_Core1.sp_a3_vactube_hanging_11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_11.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+		}
+	}
+}
+"Revo_Core1.sp_a3_vactube_hanging_12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_12.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+		}
+	}
+}
+"Revo_Core1.sp_a3_vactube_hanging_13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_13.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+		}
+	}
+}
+"Revo_Core1.sp_a3_vactube_hanging_14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_14.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+		}
+	}
+}
+"Revo_Core1.sp_a3_vactube_hanging_15"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_vactube_hanging_15.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+		}
+	}
+}

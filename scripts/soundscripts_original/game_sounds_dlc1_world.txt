@@ -1,0 +1,39 @@
+//////		"scripts/game_sounds_dlc1_world.txt"
+
+
+
+"world.crazybox.door.close"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_150dB"
+	"volume"		"1"
+	"pitch"			"100"
+	"wave"			"world\crazy_box_door_close.wav"
+}
+
+"world.nightvision.powerup"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.9"
+	"pitch"		"100"
+	"wave"		"ui\nv_powerup.wav"
+}
+
+"world.nightvision.hum"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.9"
+	"pitch"		"100"
+	"wave"		"ui\nv_hum_lp.wav"
+}
+
+"World.RobotIBeamImpactQuiet"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_150dB"
+	"volume"		"1"
+	"pitch"			"100"
+	"wave"			"common/NULL.WAV"
+}

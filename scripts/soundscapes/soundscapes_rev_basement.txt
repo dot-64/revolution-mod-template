@@ -1,0 +1,442 @@
+"basement.big_cave_01"
+{
+
+	"playlooping"
+	{
+		"volume"	"1"
+
+		"wave"	"ambient/atmosphere/ind_int_lp_02.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"time"		"6.0, 14.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient/random_abstract/amb_boomer_01.wav"
+			"wave"	"ambient/random_abstract/amb_boomer_02.wav"
+			"wave"	"ambient/random_abstract/amb_boomer_03.wav"
+			"wave"	"ambient/random_abstract/amb_boomer_05.wav"
+			"wave"	"ambient/random_abstract/amb_boomer_06.wav"
+			"wave"	"ambient/random_abstract/amb_boomer_07.wav"
+		}
+	}
+}
+
+"basement.huge_cave_01"
+{
+
+	"playlooping"
+	{
+		"volume"	"1"
+
+		"wave"	"ambient\wind\underground_wind_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+
+		"wave"	"ambient\wind\amb_eerie_wind_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"time"		"6.0, 14.0"
+		"position"	"0"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient/random_abstract/amb_boomer_01.wav"
+			"wave"	"ambient/random_abstract/amb_boomer_02.wav"
+			"wave"	"ambient/random_abstract/amb_boomer_03.wav"
+			"wave"	"ambient/random_abstract/amb_boomer_05.wav"
+			"wave"	"ambient/random_abstract/amb_boomer_06.wav"
+			"wave"	"ambient/random_abstract/amb_boomer_07.wav"
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.95"
+		"pitch"		"100"
+		"time"		"6.0, 14.0"
+		"position"	"1"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_10.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_12.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_13.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_14.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_16.wav"
+		}
+	}
+
+}
+
+"basement.cave_int_01"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient\industrial\amb_industrial_medium_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"	"ambient\wind\amb_eerie_wind_lp_01.wav"
+
+		"pitch"		"80"
+		"attenuation"	"1.2"
+	}
+	"playrandom"
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"time"		"18.0, 29.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\hole_hit1.wav"
+			"wave"	"ambient\atmosphere\hole_hit2.wav"
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\atmosphere\hole_hit4.wav"
+			"wave"	"ambient\atmosphere\hole_hit5.wav"
+		}
+	}
+}
+
+"basement.cave_int_02"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient\tones\amb_abstract_air_lp_08.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\atmosphere\cargo_hold2.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"basement.claustrophobic_cave_01"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient\atmosphere\drone4lp.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"basement.claustrophobic_cave_water_01"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient\atmosphere\drone4lp.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"	"ambient\nature\water\amb_light_waterlap_lp_01.wav"
+
+		"pitch"		"95"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient\nature\water\amb_waterleak_lp_01.wav"
+
+		"pitch"		"100"
+		"position" "0"
+		"attenuation"	"2.5"
+	}
+	"playrandom"
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"time"		"1.0, 7.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL40dB"
+		"rndwave"
+		{
+			"wave"	"ambient\nature\water\amb_waterdrips_01.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_05.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_08.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_13.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_17.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_19.wav"
+		}
+	}
+}
+
+"basement.office_mid_01"
+{
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"	"ambient\atmosphere\drone1lp.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\atmosphere\quiet_cellblock_amb.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"	"ambient\electrical\amb_hotel_refrigeration_lp_01.wav"
+
+		"pitch"		"80"
+		"attenuation"	"0.3"
+	}
+}
+
+"basement.office_small_01"
+{
+	"dsp" "12"
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\tones\amb_abstract_air_lp_08.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"	"ambient\props\electric\amb_neon_hum_lp_01.wav"
+	}
+}
+
+"basement.office_small_02"
+{
+	"dsp" "12"
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"wave"	"ambient\tones\amb_abstract_air_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.75"
+		"wave"	"ambient\nature\water\amb_bubbling_goo_lp_01.wav"
+		"position" "0"
+		"attenuation"	"0.5"
+	}
+}
+
+"basement.chamber_01"
+{
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"wave"	"ambient\wind\amb_eerie_wind_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume" "0.7"
+		"wave"	"ambient\industrial\amb_industrial_muffled_lp_04.wav"
+	}
+}
+"basement.chamber_02"
+{
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"wave"	"ambient\atmosphere\ind_int_lp_02.wav"
+	}
+	"playlooping"
+	{
+		"volume" "0.7"
+		"wave"	"ambient\industrial\amb_industrial_muffled_lp_05.wav"
+	}
+	"playlooping"
+	{
+		"volume" "0.5"
+		"wave"	"ambient\industrial\amb_mach_behind_walls_lp_01.wav"
+		"position" "0"
+	}
+}
+
+"basement.elevator_01"
+{
+	"dsp" "8"
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\atmosphere\cargo_hold2.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"	"ambient\atmosphere\ind_int_lp_02.wav"
+	}
+}
+
+"basement.bts_01"
+{
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\industrial\warehouse_ambience_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"	"ambient\wind\amb_eerie_wind_lp_01.wav"
+	}
+	"playrandom"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"time"		"10.0, 17.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL40dB"
+		"rndwave"
+		{
+			"wave"	"ambient\industrial\warehouse_ambience_rand_01.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_03.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_04.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_06.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_07.wav"
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.25"
+		"position"	"0"
+		"wave"	"ambient\props\electric\amb_bts_generator_lp_01.wav"
+		"attenuation"	"0.5"
+	}
+}
+
+"basement.hallway_01"
+{
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\atmosphere\drone2lp.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"	"ambient\atmosphere\ind_int_lp_01.wav"
+	}
+	"playrandom"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"time"		"10.0, 17.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL40dB"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\hole_hit1.wav"
+			"wave"	"ambient\atmosphere\hole_hit2.wav"
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\atmosphere\hole_hit4.wav"
+			"wave"	"ambient\atmosphere\hole_hit5.wav"
+		}
+	}
+}
+
+"void_cave.big01"
+{
+	"playlooping"
+	{
+		"volume" "1.0"
+		"wave" "ambient\wind\amb_eerie_wind_lp_01.wav"
+	}
+	"playrandom"
+	{
+		"rndwave"
+		{
+			"wave" "playonce\ambient\metal\amb_metal_groan_low_01.wav"
+			"wave" "playonce\ambient\metal\amb_metal_groan_low_02.wav"
+			"wave" "playonce\ambient\metal\amb_metal_groan_low_03.wav"
+			"wave" "playonce\ambient\metal\amb_metal_groan_low_04.wav"
+			"wave" "playonce\ambient\metal\amb_metal_groan_low_05.wav"
+			"wave" "playonce\ambient\metal\amb_metal_groan_low_06.wav"
+			"wave" "playonce\ambient\metal\amb_metal_groan_low_07.wav"
+		}
+		"position" "0"
+		"time"		"8, 24.0"
+	}
+}
+
+"void_cave.ledge01"
+{
+	"playlooping"
+	{
+		"wave" "ambient\atmosphere\cargo_hold2.wav"
+		"volume" "1.0"
+	}
+	"playrandom"
+	{
+		"rndwave"
+		{
+			"wave" "ambient\industrial\amb_muffled_lo_mach_08.wav"
+			"wave" "ambient\industrial\amb_muffled_lo_mach_09.wav"
+			"wave" "ambient\industrial\amb_muffled_lo_mach_15.wav"
+			"wave" "ambient\industrial\amb_muffled_lo_mach_06.wav"
+			"wave" "ambient\industrial\amb_muffled_lo_mach_05.wav"
+			"wave" "ambient\industrial\warehouse_ambience_rand_04.wav"
+			"wave" "ambient\industrial\warehouse_ambience_rand_06.wav"
+			"wave" "ambient\industrial\warehouse_ambience_rand_08.wav"
+		}
+		"time"		"15.0, 24.0"
+		"volume" "0.9"
+	}
+}
+
+"void_cave.int01"
+{
+	"playlooping"
+	{
+		"wave" "ambient\tones\amb_abstract_air_lp_08.wav"
+		"volume" "0.7"
+	}
+	"playlooping"
+	{
+		"wave" "ambient\tones\amb_abstract_air_lp_02.wav"
+		"volume" "0.9"
+	}
+}

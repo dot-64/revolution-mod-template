@@ -1,0 +1,5 @@
+weapon_manifest
+{
+	// portal
+	"file"		"scripts/weapon_portalgun.txt"
+}

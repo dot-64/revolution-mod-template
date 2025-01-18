@@ -1,0 +1,237 @@
+"bts.shredder_vista_01"
+{
+
+	"playlooping"
+	{
+		"volume"	"1"
+
+		"wave"	"ambient/atmosphere/ind_int_lp_02.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+
+		"wave"	"ambient/atmosphere/quiet_cellblock_amb.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+
+		"wave"	"ambient/levels/citadel/citadel_drone_loop4.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"bts.shredder_behind_01"
+{
+
+	"playrandom"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"time"		"2.0, 8.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"props/explosions/explo_distant_med_01.wav"
+			"wave"	"props/explosions/explo_distant_med_02.wav"
+			"wave"	"props/explosions/explo_distant_med_03.wav"
+			"wave"	"props/explosions/explo_distant_med_04.wav"
+			"wave"	"props/explosions/explo_distant_med_05.wav"
+			"wave"	"props/explosions/explo_distant_med_06.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+
+		"wave"	"ambient/atmosphere/ind_int_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+
+		"wave"	"ambient/atmosphere/quiet_cellblock_amb.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"bts.shredder_behind_02"
+{
+
+	"playrandom"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"time"		"2.0, 8.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"props/explosions/explo_distant_med_01.wav"
+			"wave"	"props/explosions/explo_distant_med_02.wav"
+			"wave"	"props/explosions/explo_distant_med_03.wav"
+			"wave"	"props/explosions/explo_distant_med_04.wav"
+			"wave"	"props/explosions/explo_distant_med_05.wav"
+			"wave"	"props/explosions/explo_distant_med_06.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"1"
+
+		"wave"	"ambient/industrial/amb_mach_behind_walls_lp_05.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"position"	"0"
+		"wave"	"ambient/tones/amb_abstract_air_lp_06.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"bts.shredder_windintro_01"
+{
+	"playlooping"
+	{
+		"volume"	"0.4"
+
+		"wave"	"ambient/industrial/amb_mach_behind_walls_lp_02.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"position"	"0"
+		"wave"	"ambient/props/electric/amb_bts_generator_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.95"
+		"wave"	"ambient/atmosphere/ind_int_lp_02.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"	"ambient/industrial/warehouse_ambience_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"time"		"3.0, 8.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient/industrial/warehouse_ambience_rand_01.wav"
+			"wave"	"ambient/industrial/warehouse_ambience_rand_03.wav"
+			"wave"	"ambient/industrial/warehouse_ambience_rand_04.wav"
+			"wave"	"ambient/industrial/warehouse_ambience_rand_07.wav"
+			"wave"	"ambient/industrial/warehouse_ambience_rand_10.wav"
+		}
+	}
+}
+
+"bts.shredder_windintro_interior_01"
+{
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"	"ambient/props/electric/amb_bts_generator_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"wave"	"ambient/atmosphere/quiet_cellblock_amb.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"bts.office.calm01"
+{
+	"playlooping"
+	{
+		"volume" "0.5"
+		"soundlevel"	"SNDLVL40dB"
+		"wave" "ambient\atmosphere\indoor1.wav"
+	}
+
+	"playlooping"
+	{
+		"volume" "0.8"
+		"soundlevel"	"SNDLVL30dB"
+		"wave" "ambient\atmosphere\drone2lp.wav"
+	}
+
+	"playlooping"
+	{
+		"volume" "0.7"
+		"wave" "ambient\props\electric\amb_bts_generator_lp_01.wav"
+		"soundlevel"	"SNDLVL60dB"
+		"position" "0"
+		"attenuation" "0.7"
+	}
+}
+
+"bts.testchamber_observation"
+{
+	"playlooping"
+	{
+		"volume" "1"
+		"wave" "ambient\atmosphere\ambience_base.wav"
+	}
+
+	"playlooping"
+	{
+		"volume" "0.7"
+		"wave" "ambient\tones\amb_abstract_air_lp_03.wav"
+	}
+}

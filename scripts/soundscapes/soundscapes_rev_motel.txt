@@ -1,0 +1,119 @@
+"Motel.BackgroundMap"
+{
+	"playrandom"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"time"		"10, 60.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_01.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_06.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_10.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_14.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_17.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+
+		"wave"	"ambient\atmosphere\drone_int_lp.wav"
+
+		"pitch"		"80"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.2"
+
+		"wave"	"ambient\electrical\amb_hotel_refrigeration_lp_01.wav"
+
+		"pitch"		"90"
+		"attenuation"	"0"
+	}
+}
+
+"Motel.Interior_MuffledMachines"
+{
+	"playrandom"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"time"		"10, 60.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_01.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_06.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_10.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_14.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_17.wav"
+		}
+	}
+}
+
+"Motel.Interior_Offline.Quiet"
+{
+
+	"dsp" "8"
+	"playsoundscape"
+	{
+		"name"	"Motel.Interior_MuffledMachines"
+		"volume" "0.3"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+
+		"wave"	"ambient\industrial\amb_industrial_muffled_lp_03.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"Motel.Interior_Offline.Mid"
+{
+
+	"dsp" "9"
+	"playsoundscape"
+	{
+		"name"	"Motel.Interior_MuffledMachines"
+		"volume" "0.3"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+
+		"wave"	"ambient\industrial\amb_industrial_muffled_lp_05.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"Motel.Interior_Online.Main"
+{
+	"dsp" "9"
+	"playsoundscape"
+	{
+		"name"	"Motel.Interior_MuffledMachines"
+		"volume" "0.1"
+	}
+	"playlooping"
+	{
+		"volume"	"0.8"
+
+		"wave"	"ambient\electrical\amb_hotel_fluorescent_lights_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}

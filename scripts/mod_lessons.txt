@@ -1,0 +1,3 @@
+// Tewan: Removing everything in this file disables the annoying automated instructors
+
+"instructor_lessons" {}

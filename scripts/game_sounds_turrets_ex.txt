@@ -1,0 +1,184 @@
+
+// ==========================================================================================================================
+// ============================================================== Witness Death =============================================
+// ==========================================================================================================================
+
+"turret.turretwitnessdeath01"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath01.wav"
+}
+"turret.turretwitnessdeath02"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath02.wav"
+}
+"turret.turretwitnessdeath03"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath03.wav"
+}
+"turret.turretwitnessdeath04"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath04.wav"
+}
+"turret.turretwitnessdeath05"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath05.wav"
+}
+"turret.turretwitnessdeath06"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath06.wav"
+}
+"turret.turretwitnessdeath07"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath07.wav"
+}
+"turret.turretwitnessdeath08"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath08.wav"
+}
+"turret.turretwitnessdeath09"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath09.wav"
+}
+"turret.turretwitnessdeath10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath10.wav"
+}
+"turret.turretwitnessdeath11"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath11.wav"
+}
+"turret.turretwitnessdeath12"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath12.wav"
+}
+"turret.turretwitnessdeath13"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath13.wav"
+}
+"turret.turretwitnessdeath14"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath14.wav"
+}
+"turret.turretwitnessdeath15"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretwitnessdeath15.wav"
+}
+
+// ==========================================================================================================================
+// ============================================================== Shot by laser =============================================
+// ==========================================================================================================================
+"turret.turretshotbylaser01"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretshotbylaser01.wav"
+}
+"turret.turretshotbylaser02"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretshotbylaser02.wav"
+}
+"turret.turretshotbylaser03"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretshotbylaser03.wav"
+}
+"turret.turretshotbylaser04"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretshotbylaser04.wav"
+}
+"turret.turretshotbylaser05"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretshotbylaser05.wav"
+}
+"turret.turretshotbylaser06"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretshotbylaser06.wav"
+}
+"turret.turretshotbylaser07"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretshotbylaser07.wav"
+}
+"turret.turretshotbylaser08"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretshotbylaser08.wav"
+}
+"turret.turretshotbylaser09"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretshotbylaser09.wav"
+}
+"turret.turretshotbylaser10"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_TALKING"
+	"wave"	"npc/Turret/turretshotbylaser10.wav"
+}

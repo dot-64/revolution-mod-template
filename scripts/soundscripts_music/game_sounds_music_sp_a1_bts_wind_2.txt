@@ -1,0 +1,49 @@
+// sp_a1_bts_wind_2
+
+"music.sp_a1_bts_wind_2_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a1_bts_wind_2_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+		}
+	}
+}
+"music.sp_a1_bts_wind_2_a1"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_160dB"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a1_bts_wind_2_a1.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a1_laser_intro_main_a1"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+			"speakers_spatialize"
+			{
+				"input_radius"	"600"
+			}
+		}
+	}
+}

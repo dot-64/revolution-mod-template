@@ -1,0 +1,298 @@
+"world.dlc1_door"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_150dB"
+	"volume"		"1"
+	"pitch"			"100"
+	"wave"			"world/dlc1_door.wav"
+}
+
+"revolution.toilet_flush"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_150dB"
+	"volume"		"1"
+	"pitch"			"100"
+	"wave"			"effects/usetoilet_flush.wav"
+}
+
+"revolution.bed_cover_open"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_150dB"
+	"volume"		"1"
+	"pitch"			"100"
+	"wave"			"effects/bed_cover_open.wav"
+}
+
+"environment.distant_explosion"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1"
+
+	"rndwave" {
+		"wave"	"props/explosions/explo_distant_med_01.wav"
+		"wave"	"props/explosions/explo_distant_med_02.wav"
+		"wave"	"props/explosions/explo_distant_med_03.wav"
+		"wave"	"props/explosions/explo_distant_med_04.wav"
+		"wave"	"props/explosions/explo_distant_med_05.wav"
+		"wave"	"props/explosions/explo_distant_med_06.wav"
+	}
+}
+
+"turret_about_to_be_shredded"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1"
+
+	"rndwave" {
+		"wave"	"npc/turret/turretwitnessdeath09.wav"
+		"wave"	"npc/turret/turretlaunched11.wav"
+		"wave"	"npc/turret/turretlaunched07.wav"
+		"wave"	"npc/turret/turretlaunched06.wav"
+		"wave"	"npc/turret/turretlaunched05.wav"
+		"wave"	"npc/turret/turretlaunched04.wav"
+	}
+}
+
+"metalWall_move" {
+	"channel" "CHAN_STATIC"
+	"soundlevel" "SNDLVL_140dB"
+	"volume" "1"
+
+	"wave" "world/test_chamber_travel_lp_swt_01.wav"
+}
+
+"World.PistonStair_Open"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.75"
+	"soundlevel"  "SNDLVL_75dB"
+	"wave"	"plats/a2_laser_over_goo_platform_travel_lp_01.wav"
+}
+"World.PistonStair_OpenStop"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.9"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"	"plats/a2_laser_over_goo_platform_arrive.wav"
+}
+"World.PistonStair_CloseStop"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.5"
+	"soundlevel"	"SNDLVL_75dB"
+
+	"wave"		")plats/platform_stop_01.wav"
+
+	"soundentry_version"	"2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"block_entries"
+			{
+				"operator" "sys_block_entries"
+				"input_duration" 0.1
+				"match_entry" "World.PistonStair_CloseStop"
+				"match_entity" "0"
+			}
+		}
+	}
+}
+"World.Lever_DoorOpen"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.9"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"95,105"
+	"wave"	"doors/door_metal_medium_close1.wav"
+}
+"World.BtsElevator_Start"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.9"
+	"soundlevel"  "SNDLVL_85dB"
+	"pitch"		"100,105"
+	"wave"	"plats\elevator_start1.wav"
+}
+"World.BtsElevator_Travel"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.9"
+	"soundlevel"  "SNDLVL_85dB"
+	"pitch"		"100,105"
+	"wave"	"plats\elevator_loop1.wav"
+}
+"World.BtsElevator_Arrive"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.9"
+	"soundlevel"  "SNDLVL_85dB"
+	"pitch"		"100,105"
+	"wave"	"plats\elevator_stop2.wav"
+}
+"World.BtsButton_Press"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_40dB"
+	"pitch"		"120,130"
+	"wave"	"world\light_power_on_03.wav"
+}
+"World.Vactube.Monitor_BuzzLp"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_30dB"
+	"pitch"		"100,105"
+	"wave"	"scapes\3d\ticketmachine_loop.wav"
+}
+"World.LightFlicker_Off"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_70dB"
+	"pitch"		"90,115"
+	"rndwave" {
+		"wave"	"vfx\light_flicker\light_flicker_02.wav"
+		"wave"	"vfx\light_flicker\light_flicker_09.wav"
+		"wave"	"vfx\light_flicker\light_flicker_15.wav"
+		"wave"	"vfx\light_flicker\light_flicker_13.wav"
+		"wave"	"vfx\light_flicker\light_flicker_21.wav"
+		"wave"	"vfx\light_flicker\light_flicker_24.wav"
+		"wave"	"vfx\light_flicker\light_flicker_29.wav"
+	}
+}
+"World.ElectricRelay" 
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_80dB"
+	"pitch"		"100,105"
+	"wave"	"vfx\light_flicker\light_flicker_24.wav"
+}
+"World.MotelScreen_Deploy"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_70dB"
+	"pitch"		"100"
+	"wave"	"world/motel_screen_deploy.wav"
+}
+"World.MotelScreen_DeployBack"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_70dB"
+	"pitch"		"100"
+	"wave"	"world/motel_screen_deploy_back.wav"
+}
+"World.MotelSlidingDoor_Open"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_100dB"
+	"pitch"		"100"
+	"wave"	"world/motel_sliding_door_open.wav"
+}
+"World.MotelSlidingDoor_Close"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_100dB"
+	"pitch"		"100"
+	"wave"	"world/motel_sliding_door_close.wav"
+}
+"SchrodingerCube.StartEmitting"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_70dB"
+	"pitch"		"100"
+	"wave"	"vfx/schrodinger_cube_power_on_02.wav"
+
+	"soundentry_version"	"2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"stop_entries"
+			{
+				"operator" "sys_stop_entries"
+				"match_entry" "SchrodingerCube.StopEmitting"
+				"match_entity" "0"
+			}
+		}
+	}
+}
+"SchrodingerCube.StopEmitting"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_70dB"
+	"pitch"		"100"
+	"wave"	"vfx/schrodinger_cube_power_off_02.wav"
+
+	"soundentry_version"	"2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"stop_entries"
+			{
+				"operator" "sys_stop_entries"
+				"match_entry" "SchrodingerCube.StopEmitting"
+				"match_entity" "0"
+			}
+		}
+	}
+}
+"World.SteamLoop01"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_65dB"
+	"pitch"		"100"
+	"wave"	"scapes\3d\steam_loop_01.wav"
+}
+"World.Fluorescent_light_lp_02"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_65dB"
+	"pitch"		"100"
+	"wave"	"ambient\electrical\amb_fluorescent_lights_lp_02.wav"
+}
+"World.WaterfallLp"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_150dB"
+	"pitch"		"100"
+	"wave"	"nature/waterfall_lp.wav"
+}
+"Paint.ObjectCleaning"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_150dB"
+	"pitch"		"90,115"
+	"rndwave" {
+		"wave"	"player\footsteps\fs_fm_water_wade_01.wav"
+		"wave"	"player\footsteps\fs_fm_water_wade_02.wav"
+		"wave"	"player\footsteps\fs_fm_water_wade_06.wav"
+		"wave"	"player\footsteps\fs_fm_water_wade_08.wav"
+	}
+}
+"Shower.WaterLoop"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_90dB"
+	"pitch"		"100"
+	"wave"	"ambient/rain/rain_falling_00.wav"
+}

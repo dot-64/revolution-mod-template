@@ -1,0 +1,654 @@
+"Sunset_Portalgun"
+{
+
+	"playrandom"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"time"		"30, 35.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient/nature/water/amb_waterdrips_01.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_02.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_03.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_04.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_05.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_06.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_07.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_08.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+
+		"wave"	"ambient/nature/insects/amb_insects_lp_03.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+
+
+"Vegetation.Spire_Sunny"
+{
+
+	"playrandom"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"time"		"6.0, 12.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient\nature\birds\amb_destroyed_elevator_1shot_01.wav"
+			"wave"	"ambient\nature\birds\amb_destroyed_elevator_1shot_02.wav"
+			"wave"	"ambient\nature\birds\amb_destroyed_elevator_1shot_03.wav"
+			"wave"	"ambient\nature\birds\amb_destroyed_elevator_1shot_04.wav"
+			"wave"	"ambient\nature\birds\amb_destroyed_elevator_1shot_05.wav"
+			"wave"	"ambient\nature\birds\amb_destroyed_elevator_1shot_06.wav"
+			"wave"	"ambient\nature\birds\amb_destroyed_elevator_1shot_07.wav"
+			"wave"	"ambient\nature\birds\amb_destroyed_elevator_1shot_08.wav"
+			"wave"	"ambient\nature\birds\amb_destroyed_elevator_1shot_09.wav"
+			"wave"	"ambient\nature\birds\amb_destroyed_elevator_1shot_10.wav"
+			"wave"	"ambient\nature\birds\amb_destroyed_elevator_1shot_11.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"time"		"18.0, 23.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient\nature\birds\amb_wing_flap_01.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_02.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_03.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_04.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_05.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_06.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_07.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"time"		"3.0, 22.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient\nature\birds\amb_african_birds_01.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_02.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_03.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_04.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_05.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_06.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_07.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_08.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_09.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_10.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_11.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_12.wav"
+			"wave"	"ambient\nature\birds\amb_african_birds_13.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+
+		"wave"	"ambient\nature\insects\amb_destroyed_elevator_lp_02.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"Vegetation.WindyChamber_Med"
+{
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"	"100"
+		"position" "0"
+		"soundlevel" "SNDLVL20dB"
+		"wave" "ambient\nature\water\amb_light_waterlap_lp_01.wav"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Elevator_Birds_01"
+		"volume" "1"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.6"
+		"pitch"		"100"
+		"time"		"18.0, 23.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient\nature\birds\amb_wing_flap_01.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_02.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_03.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_04.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_05.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_06.wav"
+			"wave"	"ambient\nature\birds\amb_wing_flap_07.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume" 	"0.8"
+		"pitch"	"80,105"
+		"time" "8, 18"
+		"position" "0"
+		"soundlevel" "SNDLVL40dB"
+		"rndwave"
+		{
+			"wave" "ambient\levels\canals\toxic_slime_gurgle2.wav"
+			"wave" "ambient\levels\canals\toxic_slime_gurgle3.wav"
+			"wave" "ambient\levels\canals\toxic_slime_gurgle4.wav"
+			"wave" "ambient\levels\canals\toxic_slime_gurgle5.wav"
+			"wave" "ambient\levels\canals\toxic_slime_gurgle7.wav"
+			"wave" "ambient\levels\canals\toxic_slime_gurgle8.wav"
+		}
+	}
+
+}
+
+"Vegetation.BigChamber"
+{
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Crows"
+	}
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Insects_01"
+		"volume" "0.5"
+	}
+	"playlooping"
+	{
+		"volume" "0.8"
+		"pitch" "80"
+		"soundlevel" "SNDLVL_40dB"
+
+		"position" "0"
+
+		"wave" "ambient\nature\water\amb_light_waterlap_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume" "0.4"
+		"pitch" "105"
+		"soundlevel" "SNDLVL_35dB"
+
+		"wave" "ambient\wind\amb_eerie_wind_lp_01.wav"
+	}
+}
+
+"Vegetation.SmallChamber"
+{
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Insects_01"
+		"volume" "0.1"
+	}
+	"playlooping"
+	{
+		"volume" "0.3"
+		"pitch" "80"
+		"soundlevel" "SNDLVL_35dB"
+
+		"wave" "ambient\wind\amb_eerie_wind_lp_01.wav"
+	}
+}
+
+"Vegetation.Waterfall_01"
+{
+	"dsp" "10"
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Crows"
+		"volume" "1"
+	}
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Insects_01"
+		"volume" "0.1"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "0.5"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "1"
+	}	
+}
+
+"Vegetation.Flings_01"
+{
+	"dsp" "9"
+
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Insects_02"
+		"volume" "0.4"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "0.5"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "0.8"
+	}	
+}
+"Vegetation.Flings_02"
+{
+	"dsp" "2"
+
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Insects_02"
+		"volume" "0.1"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "0.5"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "0.8"
+	}	
+}
+
+"Night.Hallway_01"
+{
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"pitch"	"100"
+		"soundlevel" "SNDLVL40dB"
+		"wave" "ambient\nature\insects\amb_insects_lp_03.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"pitch"	"60"
+		"soundlevel" "SNDLVL40dB"
+		"wave" "ambient\wind\amb_eerie_wind_lp_01.wav"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"time"		"30, 35.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient/nature/water/amb_waterdrips_01.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_02.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_03.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_04.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_05.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_06.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_07.wav"
+			"wave"	"ambient/nature/water/amb_waterdrips_08.wav"
+		}
+	}
+
+}
+
+"Night.SchrodingerFinale_Main"
+{
+
+	"dsp" "20"
+
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"pitch"	"100"
+		"soundlevel" "SNDLVL40dB"
+		"wave" "ambient\nature\insects\amb_insects_lp_03.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"pitch"	"60"
+		"soundlevel" "SNDLVL40dB"
+		"wave" "ambient\wind\amb_eerie_wind_lp_01.wav"
+	}
+
+	
+	"playlooping"
+	{
+		"volume" "0.1"
+		"pitch" "100"
+		"soundlevel" "SNDLVL_40dB"
+
+		"wave" "ambient\atmosphere\cargo_hold2.wav"
+	}
+
+}
+
+"Vegetation.Outside_Elevator"
+{
+	"dsp" "6"
+
+	"playlooping"
+	{
+		"volume" "0.5"
+		"pitch" "100"
+		"soundlevel" "SNDLVL_40dB"
+
+		"wave" "ambient\atmosphere\cargo_hold2.wav"
+	}
+	"playlooping"
+	{
+		"volume" "0.5"
+		"pitch" "120"
+		"soundlevel" "SNDLVL_20dB"
+
+		"wave" "ambient\atmosphere\drone2lp.wav"
+	}
+}
+"Vegetation.Outside_ExitHallway"
+{
+	"dsp" "5"
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient/atmosphere/ind_int_lp_01.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"		"ambient/atmosphere/ind_int_lp_02.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.4"
+		"pitch"		"70, 120"
+		"time"		"5.0, 15.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL45dB"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/creaking.wav"
+			"wave"	"ambient/materials/metal4.wav"
+			"wave"	"ambient/materials/metal_rattle4.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.2,0.4"
+		"pitch"		"70, 120"
+		"time"		"30.0, 60.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL45dB"
+		"rndwave"
+		{
+			"wave"	"ambient/materials/vent_scurry_medium.wav"
+			"wave"	"ambient/materials/creaking.wav"
+			"wave"	"ambient/materials/metal4.wav"
+			"wave"	"ambient/materials/metal_rattle4.wav"
+		}
+	}
+}
+
+"Vegetation.Outside_Reveal_01"
+{
+	"dsp" "20"
+
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Crows"
+		"volume" "0.8"
+	}
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Insects_02"
+		"volume" "0.4"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "0.8"
+	}
+}
+"Vegetation.Outside_Reveal_02"
+{
+	"dsp" "8"
+
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Crows"
+		"volume" "1"
+	}
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Insects_02"
+		"volume" "0.6"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "0.3"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "0.5"
+	}
+}
+
+"Vegetation.Outside_Hallway_01"
+{
+	"dsp" "6"
+
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Crows"
+		"volume" "0.4"
+	}
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Insects_02"
+		"volume" "0.7"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "0.1"
+	}
+}
+
+"Vegetation.Outside_Interior_01"
+{
+	"dsp" "6"
+
+	"playlooping"
+	{
+		"volume" "0.5"
+		"pitch" "100"
+		"soundlevel" "SNDLVL_40dB"
+
+		"wave" "ambient\atmosphere\cargo_hold2.wav"
+	}
+	"playlooping"
+	{
+		"volume" "0.5"
+		"pitch" "120"
+		"soundlevel" "SNDLVL_20dB"
+
+		"wave" "ambient\atmosphere\drone2lp.wav"
+	}
+}
+"Vegetation.Outside_Interior_Exposed_01"
+{
+	"dsp" "6"
+
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Crows"
+		"volume" "0.3"
+	}
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Insects_02"
+		"volume" "0.2"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "0.1"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "0.7"
+	}
+	"playlooping"
+	{
+		"volume" "0.5"
+		"pitch" "120"
+		"soundlevel" "SNDLVL_20dB"
+
+		"wave" "ambient\atmosphere\drone2lp.wav"
+	}
+
+}
+"Vegetation.Outside_Interior_Exposed_02"
+{
+	"dsp" "6"
+
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Crows"
+		"volume" "0.3"
+	}
+	"playsoundscape"
+	{
+		"name" "TestChamber_Vegetation.Insects_02"
+		"volume" "0.6"
+	}
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Destruction.WindEerie_01"
+		"volume" "0.3"
+	}
+
+}
+"Vegetation.Outside_Chamber12_Top"
+{
+	"dsp" "9"
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Crows"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Insects_01"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "0.3"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.AfricanBirds"
+		"volume" "1"
+	}
+}
+"Vegetation.Outside_Chamber12_Bottom"
+{
+	"dsp" "9"
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Crows"
+		"volume" "0.5"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Insects_01"
+		"volume" "0.3"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.WaterDrips"
+		"volume" "1"
+	}
+	
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.AfricanBirds"
+		"volume" "0.7"
+	}
+}
+
+"Revo.PostGame" {
+	"dsp" "1"
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.Insects_03"
+		"volume" "0.3"
+	}
+
+	"playsoundscape" 
+ 	{
+		"name"	"TestChamber_Vegetation.AfricanBirds"
+		"volume" "0.1"
+	}
+
+	"playlooping"
+	{
+		"volume" "0.1"
+		"pitch" "100"
+		"wave" "ambient\wind\windy_trees_blowing_stereo_a1.wav"
+	}
+}

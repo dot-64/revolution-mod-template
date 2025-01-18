@@ -1,0 +1,98 @@
+
+// ==================================================== sp_a4_schrodinger_final
+"Revo_Core1.sp_a4_schrodinger_final_00"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a4_schrodinger_final_00.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}
+"Revo_Core1.sp_a4_schrodinger_final_01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a4_schrodinger_final_01.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}
+"Revo_Core1.sp_a4_schrodinger_final_02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a4_schrodinger_final_02.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}
+"Revo_Core1.sp_a4_schrodinger_final_10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a4_schrodinger_final_10.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}
+"Revo_Core1.sp_a4_schrodinger_final_11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a4_schrodinger_final_11.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}
+"Revo_Core1.sp_a4_schrodinger_final_12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a4_schrodinger_final_12.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_everywhere"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+"GameInfo"
+{
+	game        						"Portal: Revolution (P2CE Mod template)"
+	gamedata						"revolution.fgd"
+
+	icon							"resource/icon"
+	gamelogo   			 			1
+	FileSystem
+	{
+		SteamAppId 					601360
+		SearchPaths
+		{
+			game+mod+default_write_path		|gameinfo_path|.
+			game+mod				revolution/pak01_dir.vpk
+			game+mod				revolution
+			gamebin					revolution/bin
+			game					hammer
+			game					platform
+			platform				platform
+		}
+	}
+}

@@ -1,0 +1,59 @@
+"Weather.Rain_Moderate_01"
+{
+	"playlooping"
+	{
+		"volume" "1"
+
+		"wave"	"ambient/rain/rain_and_wind_a.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	
+}
+	
+	
+"Weather.Storm_LargeRoom_01"
+{
+	"playlooping"
+	{
+		"volume" "1"
+
+		"wave"	"ambient/rain/rain_and_wind_b.wav"
+		"soundlevel" "SNDLVL_50dB"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playrandom"
+	{
+		"volume" "0.8"
+		"time"		"16.0, 30.0"
+		"pitch" "80,102"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+
+		"rndwave"
+		{
+			"wave" "ambient\nature\birds\amb_wing_flap_01.wav"
+			"wave" "ambient\nature\birds\amb_wing_flap_02.wav"
+			"wave" "ambient\nature\birds\amb_wing_flap_03.wav"
+			"wave" "ambient\nature\birds\amb_wing_flap_04.wav"
+			"wave" "ambient\nature\birds\amb_wing_flap_05.wav"
+			"wave" "ambient\nature\birds\amb_wing_flap_06.wav"
+			"wave" "ambient\nature\birds\amb_wing_flap_07.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume" "0.5"
+		"soundlevel" "SNDLVL_40dB"
+		"wave" "ambient\nature\water\amb_mono_water_sludge_lp_01.wav"
+		"position" "0"
+	}
+	
+}
+	
+	

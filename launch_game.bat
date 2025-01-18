@@ -1,0 +1,1 @@
+cd "C:\Program Files (x86)\Steam\steamapps\common\Portal Revolution\bin\win64\revolution.exe -game "..\..\sourcemods\revolution_p2ce_mod_template"

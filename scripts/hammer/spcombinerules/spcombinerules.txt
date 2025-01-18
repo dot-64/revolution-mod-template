@@ -1,0 +1,609 @@
+// Changes done to staticpropcombine in Portal: Revolution:
+//
+// - Peer path automatically assumes .mdl extension if not specified
+// - Peer QC path can be specified in the value of a peer
+// - $model and $bodygroup are now recognised
+//
+"combine_rules"
+{
+    "squarebeams"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/squarebeams.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 64
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 512
+
+		// these are models that can combine with each other
+		"peers"
+		{
+            // Portal 2 Stock Props                       This is unique to Portal: Revolution! You can specify the qc path here instead of having to put it into the prop
+			"models/anim_wp/framework/squarebeam_off.mdl" "models/anim_wp/framework/squarebeam_off/squarebeam_off.qc"
+			"models/anim_wp/framework/squarebeam_off_128.mdl" "models/anim_wp/framework/squarebeam_off_128/squarebeam_off_128.qc"
+			"models/anim_wp/framework/squarebeam_off_2x2.mdl" "models/anim_wp/framework/squarebeam_off_2x2/squarebeam_off_2x2.qc"
+			"models/anim_wp/framework/squarebeam_off_4x4.mdl" "models/anim_wp/framework/squarebeam_off_4x4/squarebeam_off_4x4.qc"
+			"models/anim_wp/framework/squarebeam_off_8x8.mdl" "models/anim_wp/framework/squarebeam_off_8x8/squarebeam_off_8x8.qc"
+
+            // Custom
+			"models/anim_wp/framework/squarebeam128x64x64edge.mdl" "models/anim_wp/framework/squarebeam128x64x64edge/squarebeam128x64x64edge.qc"
+			"models/anim_wp/framework/squarebeam256x64x64edge.mdl" "models/anim_wp/framework/squarebeam256x64x64edge/squarebeam256x64x64edge.qc"
+			"models/anim_wp/framework/squarebeam64x64x64edge.mdl" "models/anim_wp/framework/squarebeam64x64x64edge/squarebeam64x64x64edge.qc"
+			"models/anim_wp/framework/squarebeam64x64x64corner.mdl" "models/anim_wp/framework/squarebeam64x64x64corner/squarebeam64x64x64corner.qc"
+			"models/anim_wp/framework/squarebeam48x48.mdl" "models/anim_wp/framework/squarebeam48x48/squarebeam48x48.qc"
+			"models/anim_wp/framework/squarebeam64x48.mdl" "models/anim_wp/framework/squarebeam64x48/squarebeam64x48.qc"
+			"models/anim_wp/framework/squarebeam64x32.mdl" "models/anim_wp/framework/squarebeam64x32/squarebeam64x32.qc"
+
+			"models/anim_wp/framework/squarebeam64x64_collision.mdl" "models/anim_wp/framework/squarebeam64x64_collision/squarebeam64x64_collision.qc"
+			"models/anim_wp/framework/squarebeam64x64_32_slope.mdl" "models/anim_wp/framework/squarebeam64x64_32_slope/squarebeam64x64_32_slope.qc"
+
+			"models/anim_wp/framework/squarebeam64x58x58edge.mdl" "models/anim_wp/framework/squarebeam64x58x58edge/squarebeam64x58x58edge.qc"
+			"models/anim_wp/framework/squarebeam48x62x62edge.mdl" "models/anim_wp/framework/squarebeam48x62x62edge/squarebeam48x62x62edge.qc"
+			"models/anim_wp/framework/squarebeam64x64x58edge.mdl" "models/anim_wp/framework/squarebeam64x64x58edge/squarebeam64x64x58edge.qc"
+			"models/anim_wp/framework/squarebeam64x64x62edge.mdl" "models/anim_wp/framework/squarebeam64x64x62edge/squarebeam64x64x62edge.qc"
+
+			"models/anim_wp/framework/squarebeam_destroyed_a.mdl" "models/anim_wp/framework/squarebeam_destroyed/squarebeam_destroyed_a.qc"
+			"models/anim_wp/framework/squarebeam_destroyed_b.mdl" "models/anim_wp/framework/squarebeam_destroyed/squarebeam_destroyed_b.qc"
+			"models/anim_wp/framework/squarebeam_destroyed_c.mdl" "models/anim_wp/framework/squarebeam_destroyed/squarebeam_destroyed_c.qc"
+		}
+    }
+
+    "portable_plaster_walls"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/portable_plaster_walls.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 32
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 256
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_bts/portable_plaster_wall/portable_plaster_wall_128x128.mdl" "models/props_bts/portable_plaster_wall/portable_plaster_wall_128x128.qc"
+			"models/props_bts/portable_plaster_wall/portable_plaster_wall_128x96.mdl" "models/props_bts/portable_plaster_wall/portable_plaster_wall_128x96.qc"
+			"models/props_bts/portable_plaster_wall/portable_plaster_wall_96x128.mdl" "models/props_bts/portable_plaster_wall/portable_plaster_wall_96x128.qc"
+			"models/props_bts/portable_plaster_wall/portable_plaster_wall_96x96.mdl" "models/props_bts/portable_plaster_wall/portable_plaster_wall_96x96.qc"
+			"models/props_bts/portable_plaster_wall/portable_plaster_wall_64x128.mdl" "models/props_bts/portable_plaster_wall/portable_plaster_wall_64x128.qc"
+			"models/props_bts/portable_plaster_wall/portable_plaster_wall_64x96.mdl" "models/props_bts/portable_plaster_wall/portable_plaster_wall_64x96.qc"
+			"models/props_bts/portable_plaster_wall/portable_plaster_wall_wheel.mdl" "models/props_bts/portable_plaster_wall/wheel.qc"
+		}
+    }
+
+	"triple_wallpipe"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/triple_wallpipes.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 32
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 1024
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_backstage/triple_wallpipe_straight_a.mdl" "models/props_backstage/triple_wallpipe_straight_a/triple_wallpipe_straight_a.qc"
+			"models/props_backstage/triple_wallpipe_straight_b.mdl" "models/props_backstage/triple_wallpipe_straight_b/triple_wallpipe_straight_b.qc"
+			"models/props_backstage/triple_wallpipe_straight_c.mdl" "models/props_backstage/triple_wallpipe_straight_c/triple_wallpipe_straight_c.qc"
+			"models/props_backstage/triple_wallpipe_straight_d.mdl" "models/props_backstage/triple_wallpipe_straight_d/triple_wallpipe_straight_d.qc"
+			"models/props_backstage/triple_wallpipe_straight_e.mdl" "models/props_backstage/triple_wallpipe_straight_e/triple_wallpipe_straight_e.qc"
+			"models/props_backstage/triple_wallpipe_straight_f.mdl" "models/props_backstage/triple_wallpipe_straight_f/triple_wallpipe_straight_f.qc"
+			"models/props_backstage/triple_wallpipe_end_a.mdl" "models/props_backstage/triple_wallpipe_end_a/triple_wallpipe_end_a.qc"
+			"models/props_backstage/triple_wallpipe_end_b.mdl" "models/props_backstage/triple_wallpipe_end_b/triple_wallpipe_end_b.qc"
+			"models/props_backstage/triple_wallpipe_entrance_a.mdl" "models/props_backstage/triple_wallpipe_entrance_a/triple_wallpipe_entrance_a.qc"
+			"models/props_backstage/triple_wallpipe_entrance_b.mdl" "models/props_backstage/triple_wallpipe_entrance_b/triple_wallpipe_entrance_b.qc"
+			"models/props_backstage/triple_wallpipe_corner_a.mdl" "models/props_backstage/triple_wallpipe_corner_a/triple_wallpipe_corner_a.qc"
+			"models/props_backstage/triple_wallpipe_corner_b.mdl" "models/props_backstage/triple_wallpipe_corner_b/triple_wallpipe_corner_b.qc"
+			"models/props_backstage/triple_wallpipe_corner_c.mdl" "models/props_backstage/triple_wallpipe_corner_c/triple_wallpipe_corner_c.qc"
+			"models/props_backstage/triple_wallpipe_corner_d.mdl" "models/props_backstage/triple_wallpipe_corner_d/triple_wallpipe_corner_d.qc"
+			"models/props_backstage/triple_wallpipe_corner_e.mdl" "models/props_backstage/triple_wallpipe_corner_e/triple_wallpipe_corner_e.qc"
+			"models/props_backstage/triple_wallpipe_90deg_a.mdl" "models/props_backstage/triple_wallpipe_90deg_a/triple_wallpipe_90deg_a.qc"
+			"models/props_backstage/triple_wallpipe_90deg_a_support.mdl" "models/props_backstage/triple_wallpipe_90deg_a/triple_wallpipe_90deg_a_support.qc"
+			"models/props_backstage/triple_wallpipe_support.mdl" "models/props_backstage/triple_wallpipe_support/triple_wallpipe_support.qc"
+		}
+    }
+
+	"duct_large"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/ducts.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 64
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 1024
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_bts/duct_45a.mdl" "models/props_bts/duct_45a/duct_45a.qc"
+			"models/props_bts/duct_64a.mdl" "models/props_bts/duct_64a/duct_64a.qc"
+			"models/props_bts/duct_90a.mdl" "models/props_bts/duct_90a/duct_90a.qc"
+			"models/props_bts/duct_128a.mdl" "models/props_bts/duct_128a/duct_128a.qc"
+			"models/props_bts/duct_256a.mdl" "models/props_bts/duct_256a/duct_256a.qc"
+			"models/props_bts/duct_512a.mdl" "models/props_bts/duct_512a/duct_512a.qc"
+			"models/props_bts/duct_angle_longa.mdl" "models/props_bts/duct_angle_longa/duct_angle_longa.qc"
+			"models/props_bts/duct_coupler32a.mdl" "models/props_bts/duct_coupler32a/duct_coupler32a.qc"
+			"models/props_bts/duct_coupler64a.mdl" "models/props_bts/duct_coupler64a/duct_coupler64a.qc"
+			"models/props_bts/duct_coupler512a.mdl" "models/props_bts/duct_coupler512a/duct_coupler512a.qc"
+			"models/props_bts/duct_damper256a.mdl" "models/props_bts/duct_damper256a/duct_damper256a.qc"
+			"models/props_bts/duct_diagonalvert45a.mdl" "models/props_bts/duct_diagonalvert45a/duct_diagonalvert45a.qc"
+			"models/props_bts/duct_diagonalvert45a_long.mdl" "models/props_bts/duct_diagonalvert45a_long/duct_diagonalvert45a_long.qc"
+			"models/props_bts/duct_diiffuse1angle_a.mdl" "models/props_bts/duct_diiffuse1angle_a/duct_diiffuse1angle_a.qc"
+			"models/props_bts/duct_diiffuse1side_a.mdl" "models/props_bts/duct_diiffuse1side_a/duct_diiffuse1side_a.qc"
+			"models/props_bts/duct_diiffuse2_a.mdl" "models/props_bts/duct_diiffuse2_a/duct_diiffuse2_a.qc"
+			"models/props_bts/duct_flex256a.mdl" "models/props_bts/duct_flex256a/duct_flex256a.qc"
+			"models/props_bts/duct_grill_large_128a.mdl" "models/props_bts/duct_grill_large_128a/duct_grill_large_128a.qc"
+			"models/props_bts/duct_grill_small_128a.mdl" "models/props_bts/duct_grill_small_128a/duct_grill_small_128a.qc"
+			"models/props_bts/duct_inline_rotate_a.mdl" "models/props_bts/duct_inline_rotate_a/duct_inline_rotate_a.qc"
+			"models/props_bts/duct_intersect_rectta.mdl" "models/props_bts/duct_intersect_rectta/duct_intersect_rectta.qc"
+			"models/props_bts/duct_intersect_ta.mdl" "models/props_bts/duct_intersect_ta/duct_intersect_ta.qc"
+			"models/props_bts/duct_intersect_vert_ta.mdl" "models/props_bts/duct_intersect_vert_ta/duct_intersect_vert_ta.qc"
+			"models/props_bts/duct_intersectya.mdl" "models/props_bts/duct_intersectya/duct_intersectya.qc"
+			"models/props_bts/duct_offset64a.mdl" "models/props_bts/duct_offset64a/duct_offset64a.qc"
+			"models/props_bts/duct_transition128.mdl" "models/props_bts/duct_transition128/duct_transition128.qc"
+			"models/props_bts/duct_vert45a_in.mdl" "models/props_bts/duct_vert45a_in/duct_vert45a_in.qc"
+			"models/props_bts/duct_vert45a_out.mdl" "models/props_bts/duct_vert45a_out/duct_vert45a_out.qc"
+			"models/props_bts/duct_vert90a.mdl" "models/props_bts/duct_vert90a/duct_vert90a.qc"
+		}
+    }
+
+	"duct_small"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/ducts.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 64
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 512
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_bts/duct_16b.mdl" "models/props_bts/duct_16b/duct_16b.qc"
+			"models/props_bts/duct_32b.mdl" "models/props_bts/duct_32b/duct_32b.qc"
+			"models/props_bts/duct_45b.mdl" "models/props_bts/duct_45b/duct_45b.qc"
+			"models/props_bts/duct_64b.mdl" "models/props_bts/duct_64b/duct_64b.qc"
+			"models/props_bts/duct_90b.mdl" "models/props_bts/duct_90b/duct_90b.qc"
+			"models/props_bts/duct_128b.mdl" "models/props_bts/duct_128b/duct_128b.qc"
+			"models/props_bts/duct_128b_slope_025.mdl" "models/props_bts/duct_128b_slopes/duct_128b_slope_025.qc"
+			"models/props_bts/duct_256b.mdl" "models/props_bts/duct_256b/duct_256b.qc"
+			"models/props_bts/duct_512b.mdl" "models/props_bts/duct_512b/duct_512b.qc"
+			"models/props_bts/duct_angle_longb.mdl" "models/props_bts/duct_angle_longb/duct_angle_longb.qc"
+			"models/props_bts/duct_coupler32b.mdl" "models/props_bts/duct_coupler32b/duct_coupler32b.qc"
+			"models/props_bts/duct_coupler64b.mdl" "models/props_bts/duct_coupler64b/duct_coupler64b.qc"
+			"models/props_bts/duct_coupler512b.mdl" "models/props_bts/duct_coupler512b/duct_coupler512b.qc"
+			"models/props_bts/duct_damper256b.mdl" "models/props_bts/duct_damper256b/duct_damper256b.qc"
+			"models/props_bts/duct_diagonalvert45b.mdl" "models/props_bts/duct_diagonalvert45b/duct_diagonalvert45b.qc"
+			"models/props_bts/duct_diagonalvert45b_long.mdl" "models/props_bts/duct_diagonalvert45b_long/duct_diagonalvert45b_long.qc"
+			"models/props_bts/duct_diiffuse1angle_b.mdl" "models/props_bts/duct_diiffuse1angle_b/duct_diiffuse1angle_b.qc"
+			"models/props_bts/duct_diiffuse1side_b.mdl" "models/props_bts/duct_diiffuse1side_b/duct_diiffuse1side_b.qc"
+			"models/props_bts/duct_diiffuse2_b.mdl" "models/props_bts/duct_diiffuse2_b/duct_diiffuse2_b.qc"
+			"models/props_bts/duct_flex256b.mdl" "models/props_bts/duct_flex256b/duct_flex256b.qc"
+			"models/props_bts/duct_grill_large_128b.mdl" "models/props_bts/duct_grill_large_128b/duct_grill_large_128b.qc"
+			"models/props_bts/duct_grill_small_128b.mdl" "models/props_bts/duct_grill_small_128b/duct_grill_small_128b.qc"
+			"models/props_bts/duct_inline_rotate_b.mdl" "models/props_bts/duct_inline_rotate_b/duct_inline_rotate_b.qc"
+			"models/props_bts/duct_intersect_b.mdl" "models/props_bts/duct_intersect_b/duct_intersect_b.qc"
+			"models/props_bts/duct_intersect_recttb.mdl" "models/props_bts/duct_intersect_recttb/duct_intersect_recttb.qc"
+			"models/props_bts/duct_intersect_vert_tb.mdl" "models/props_bts/duct_intersect_vert_tb/duct_intersect_vert_tb.qc"
+			"models/props_bts/duct_intersectyb.mdl" "models/props_bts/duct_intersectyb/duct_intersectyb.qc"
+			"models/props_bts/duct_offset64b.mdl" "models/props_bts/duct_offset64b/duct_offset64b.qc"
+			"models/props_bts/duct_vert45b_in.mdl" "models/props_bts/duct_vert45b_in/duct_vert45b_in.qc"
+			"models/props_bts/duct_vert45b_out.mdl" "models/props_bts/duct_vert45b_out/duct_vert45b_out.qc"
+			"models/props_bts/duct_vert90b.mdl" "models/props_bts/duct_vert90b/duct_vert90b.qc"
+		}
+    }
+
+	"duct_addon"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/ducts.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 4
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 512
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_bts/duct_addon.mdl" "models/props_bts/duct_addon/duct_addon.qc"
+			"models/props_bts/duct_addon_lod1.mdl" "models/props_bts/duct_addon_lod1/duct_addon_lod1.qc"
+			"models/props_bts/duct_addon_lod2.mdl" "models/props_bts/duct_addon_lod2/duct_addon_lod2.qc"
+		}
+    }
+
+	"chamber_frame"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/chamber_frames.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 20
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 192
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			// Full frames
+			"models/props_test_chamber/frame_64x128.mdl" "models/props_test_chamber/frame_64x128.qc"
+			"models/props_test_chamber/frame_128x128.mdl" "models/props_test_chamber/frame_128x128.qc"
+			"models/props_test_chamber/frame_128x128_90.mdl" "models/props_test_chamber/frame_128x128_90.qc"
+			"models/props_test_chamber/frame_192x128.mdl" "models/props_test_chamber/frame_192x128.qc"
+			"models/props_test_chamber/frame_256x128.mdl" "models/props_test_chamber/frame_256x128.qc"
+			"models/props_test_chamber/frame_256x256.mdl" "models/props_test_chamber/frame_256x256.qc"
+
+			// Straight
+			"models/props_test_chamber/frame_4.mdl" "models/props_test_chamber/frame_4.qc"
+			"models/props_test_chamber/frame_16.mdl" "models/props_test_chamber/frame_16.qc"
+			"models/props_test_chamber/frame_20.mdl" "models/props_test_chamber/frame_20.qc"
+			"models/props_test_chamber/frame_32.mdl" "models/props_test_chamber/frame_32.qc"
+			"models/props_test_chamber/frame_64.mdl" "models/props_test_chamber/frame_64.qc"
+			"models/props_test_chamber/frame_128.mdl" "models/props_test_chamber/frame_128.qc"
+
+			// Corners
+			"models/props_test_chamber/frame_corner_8.mdl" "models/props_test_chamber/frame_corner_8.qc"
+			"models/props_test_chamber/frame_corner_16.mdl" "models/props_test_chamber/frame_corner_16.qc"
+			"models/props_test_chamber/frame_corner.mdl" "models/props_test_chamber/frame_corner.qc" // 24 units
+			"models/props_test_chamber/frame_corner_32.mdl" "models/props_test_chamber/frame_corner_32.qc"
+
+			// Inverse Corners
+			"models/props_test_chamber/frame_inverse_corner_8.mdl" "models/props_test_chamber/frame_inverse_corner_8.qc"
+			"models/props_test_chamber/frame_inverse_corner_16.mdl" "models/props_test_chamber/frame_inverse_corner_16.qc"
+			"models/props_test_chamber/frame_inverse_corner_32.mdl" "models/props_test_chamber/frame_inverse_corner_32.qc"
+			"models/props_test_chamber/frame_inverse_corner_tip.mdl" "models/props_test_chamber/frame_inverse_corner.qc"
+
+			// Holes
+			"models/props_test_chamber/frame_hole_large.mdl" "models/props_test_chamber/frame_hole_large.qc"
+			"models/props_test_chamber/frame_hole_small.mdl" "models/props_test_chamber/frame_hole_small.qc"
+			"models/props_test_chamber/frame_hole_small_32.mdl" "models/props_test_chamber/frame_hole_small_32.qc"
+			"models/props_test_chamber/frame_hole_small_32b.mdl" "models/props_test_chamber/frame_hole_small_32b.qc"
+			"models/props_test_chamber/frame_hole_small_32c.mdl" "models/props_test_chamber/frame_hole_small_32c.qc"
+
+			// Destroyed
+			"models/props_test_chamber/frame_destroyed_256x128_a.mdl" "models/props_test_chamber/frame_destroyed/frame_destroyed_256x128_a.qc"
+			"models/props_test_chamber/frame_destroyed_256x128_b.mdl" "models/props_test_chamber/frame_destroyed/frame_destroyed_256x128_b.qc"
+		}
+    }
+
+	"bts_catwalk_basic"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/bts_hanging_walkways.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 8
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 512
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			// Straight
+			"models/props_bts/hanging_walkway_8a.mdl" "models/props_bts/hanging_walkway_8a/hanging_walkway_8a.qc"
+			"models/props_bts/hanging_walkway_16a.mdl" "models/props_bts/hanging_walkway_16a/hanging_walkway_16a.qc"
+			"models/props_bts/hanging_walkway_32a.mdl" "models/props_bts/hanging_walkway_32a/hanging_walkway_32a.qc"
+			"models/props_bts/hanging_walkway_32b.mdl" "models/props_bts/hanging_walkway_32b/hanging_walkway_32b.qc"
+			"models/props_bts/hanging_walkway_64a.mdl" "models/props_bts/hanging_walkway_64a/hanging_walkway_64a.qc"
+			"models/props_bts/hanging_walkway_64b.mdl" "models/props_bts/hanging_walkway_64b/hanging_walkway_64b.qc"
+			"models/props_bts/hanging_walkway_64c.mdl" "models/props_bts/hanging_walkway_64c/hanging_walkway_64c.qc"
+			"models/props_bts/hanging_walkway_64d.mdl" "models/props_bts/hanging_walkway_64d/hanging_walkway_64d.qc"
+			"models/props_bts/hanging_walkway_128a.mdl" "models/props_bts/hanging_walkway_128a/hanging_walkway_128a.qc"
+			"models/props_bts/hanging_walkway_128b.mdl" "models/props_bts/hanging_walkway_128b/hanging_walkway_128b.qc"
+			"models/props_bts/hanging_walkway_128c.mdl" "models/props_bts/hanging_walkway_128c/hanging_walkway_128c.qc"
+			"models/props_bts/hanging_walkway_256a.mdl" "models/props_bts/hanging_walkway_256a/hanging_walkway_256a.qc"
+			"models/props_bts/hanging_walkway_512a.mdl" "models/props_bts/hanging_walkway_512a/hanging_walkway_512a.qc"
+
+			// Stairs
+			"models/props_bts/hanging_stair_32.mdl" "models/props_bts/hanging_stair_32/hanging_stair_32.qc"
+			"models/props_bts/hanging_stair_64.mdl" "models/props_bts/hanging_stair_64/hanging_stair_64.qc"
+			"models/props_bts/hanging_stair_128.mdl" "models/props_bts/hanging_stair_128/hanging_stair_128.qc"
+			"models/props_bts/hanging_stair_256.mdl" "models/props_bts/hanging_stair_256/hanging_stair_256.qc"
+			"models/props_bts/hanging_stair_exit.mdl" "models/props_bts/hanging_stair_exit/hanging_stair_exit.qc"
+
+			// Stairs No Curl
+			"models/props_bts/hanging_stair_32_nc.mdl" "models/props_bts/hanging_stair_32_nc/hanging_stair_32_nc.qc"
+			"models/props_bts/hanging_stair_64_nc.mdl" "models/props_bts/hanging_stair_64_nc/hanging_stair_64_nc.qc"
+			"models/props_bts/hanging_stair_128_nc.mdl" "models/props_bts/hanging_stair_128_nc/hanging_stair_128_nc.qc"
+			"models/props_bts/hanging_stair_256_nc.mdl" "models/props_bts/hanging_stair_256_nc/hanging_stair_256_nc.qc"
+
+			// Corners and Junctions
+			"models/props_bts/hanging_walkway_l.mdl" "models/props_bts/hanging_walkway_l/hanging_walkway_l.qc"
+			"models/props_bts/hanging_walkway_t.mdl" "models/props_bts/hanging_walkway_t/hanging_walkway_t.qc"
+			"models/props_bts/hanging_walkway_x.mdl" "models/props_bts/hanging_walkway_x/hanging_walkway_x.qc"
+			"models/props_bts/hanging_walkway_corner.mdl" "models/props_bts/hanging_walkway_corner/hanging_walkway_corner.qc"
+
+			// Ends
+			"models/props_bts/hanging_walkway_end_a.mdl" "models/props_bts/hanging_walkway_end_a/hanging_walkway_end_a.qc"
+			"models/props_bts/hanging_walkway_end_b.mdl" "models/props_bts/hanging_walkway_end_b/hanging_walkway_end_b.qc"
+			"models/props_bts/hanging_walkway_end_c.mdl" "models/props_bts/hanging_walkway_end_c/hanging_walkway_end_c.qc"
+			"models/props_bts/hanging_walkway_end_cap.mdl" "models/props_bts/hanging_walkway_end_cap/hanging_walkway_end_cap.qc"
+
+			// Supports
+			"models/props_bts/hanging_walkway_support_128.mdl" "models/props_bts/hanging_walkway_support_128/hanging_walkway_support_128.qc"
+			"models/props_bts/hanging_walkway_support_256.mdl" "models/props_bts/hanging_walkway_support_256/hanging_walkway_support_256.qc"
+			"models/props_bts/hanging_walkway_support_a.mdl" "models/props_bts/hanging_walkway_support_a/hanging_walkway_support_a.qc"
+			"models/props_bts/hanging_walkway_support_bracket.mdl" "models/props_bts/hanging_walkway_support_bracket/hanging_walkway_support_bracket.qc"
+			"models/props_bts/hanging_walkway_hanger_a.mdl" "models/props_bts/hanging_walkway_hanger_a/hanging_walkway_hanger_a.qc"
+
+			// Doors
+			"models/props_bts/hanging_walkway_gate_a.mdl" "models/props_bts/hanging_walkway_gate_a/hanging_walkway_gate_a.qc"
+			"models/props_bts/hanging_walkway_gate_frame.mdl" "models/props_bts/hanging_walkway_gate_frame/hanging_walkway_gate_frame.qc"
+			"models/props_bts/hanging_walkway_gate_door.mdl" "models/props_bts/hanging_walkway_gate_door/hanging_walkway_gate_door.qc"
+		}
+    }
+
+	"bts_catwalk_lod"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/bts_hanging_walkways.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 8
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 512
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_bts/hanging_walkway_128a_lod1.mdl" "models/props_bts/hanging_walkway_128a_lod1/hanging_walkway_128a_lod1.qc"
+			"models/props_bts/hanging_walkway_corner_lod1.mdl" "models/props_bts/hanging_walkway_corner_lod1/hanging_walkway_corner_lod1.qc"
+			"models/props_bts/hanging_walkway_end_b_lod1.mdl" "models/props_bts/hanging_walkway_end_b_lod1/hanging_walkway_end_b_lod1.qc"
+			"models/props_bts/hanging_walkway_l_lod1.mdl" "models/props_bts/hanging_walkway_l_lod1/hanging_walkway_l_lod1.qc"
+			"models/props_bts/hanging_walkway_t_lod1.mdl" "models/props_bts/hanging_walkway_t_lod1/hanging_walkway_t_lod1.qc"
+			"models/props_bts/hanging_walkway_x_lod1.mdl" "models/props_bts/hanging_walkway_x_lod1/hanging_walkway_x_lod1.qc"
+
+			"models/props_bts/hanging_stair_32_lod1.mdl" "models/props_bts/hanging_stair_32_lod1/hanging_stair_32_lod1.qc"
+			"models/props_bts/hanging_stair_64_lod1.mdl" "models/props_bts/hanging_stair_64_lod1/hanging_stair_64_lod1.qc"
+			"models/props_bts/hanging_stair_128_lod1.mdl" "models/props_bts/hanging_stair_128_lod1/hanging_stair_128_lod1.qc"
+			"models/props_bts/hanging_stair_256_lod1.mdl" "models/props_bts/hanging_stair_256_lod1/hanging_stair_256_lod1.qc"
+			"models/props_bts/hanging_stair_exit_lod1.mdl" "models/props_bts/hanging_stair_exit_lod1/hanging_stair_exit_lod1.qc"
+
+			"models/catwalk_destruction/hanging_walkway_32a_lowres.mdl" "models/catwalk_destruction/hanging_walkway_32a_lowres/hanging_walkway_32a_lowres.qc"
+			"models/catwalk_destruction/hanging_walkway_32b_lowres.mdl" "models/catwalk_destruction/hanging_walkway_32b_lowres/hanging_walkway_32b_lowres.qc"
+			"models/catwalk_destruction/hanging_walkway_64a_lowres.mdl" "models/catwalk_destruction/hanging_walkway_64a_lowres/hanging_walkway_64a_lowres.qc"
+			"models/catwalk_destruction/hanging_walkway_64c_lowres.mdl" "models/catwalk_destruction/hanging_walkway_64c_lowres/hanging_walkway_64c_lowres.qc"
+			"models/catwalk_destruction/hanging_walkway_l_lowres.mdl" "models/catwalk_destruction/hanging_walkway_l_lowres/hanging_walkway_l_lowres.qc"
+			"models/catwalk_destruction/hanging_walkway_t_lowres.mdl" "models/catwalk_destruction/hanging_walkway_t_lowres/hanging_walkway_t_lowres.qc"
+		}
+	}
+
+	"bts_catwalk_super_lod"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/walkway_cards.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 16
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 512
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/a4_destruction/hanging_stair_128_cards.mdl" "models/a4_destruction/hanging_stair_128_cards/hanging_stair_128_cards.qc"
+			"models/a4_destruction/hanging_walkway_l_cards.mdl" "models/a4_destruction/hanging_walkway_l_cards/hanging_walkway_l_cards.qc"
+			"models/a4_destruction/hanging_walkway_128a_cards.mdl" "models/a4_destruction/hanging_walkway_128a_cards/hanging_walkway_128a_cards.qc"
+		}
+	}
+
+	"bts_handrail"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/bts_handrails.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 8
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 256
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			// Straight
+			"models/props_bts/handrail_16.mdl" "models/props_bts/handrail_16/handrail_16.qc"
+			"models/props_bts/handrail_32.mdl" "models/props_bts/handrail_32/handrail_32.qc"
+			"models/props_bts/handrail_32_end.mdl" "models/props_bts/handrail_32_end/handrail_32_end.qc"
+			"models/props_bts/handrail_64.mdl" "models/props_bts/handrail_64/handrail_64.qc"
+			"models/props_bts/handrail_128.mdl" "models/props_bts/handrail_128/handrail_128.qc"
+			"models/props_bts/handrail_128_nopole.mdl" "models/props_bts/handrail_128_nopole/handrail_128_nopole.qc"
+
+			// Corner
+			"models/props_bts/handrail_corner_16.mdl" "models/props_bts/handrail_corner_16/handrail_corner_16.qc"
+			"models/props_bts/handrail_corner_32.mdl" "models/props_bts/handrail_corner_32/handrail_corner_32.qc"
+			"models/props_bts/handrail_corner_128.mdl" "models/props_bts/handrail_corner_128/handrail_corner_128.qc"
+
+			// Other
+			"models/props_bts/handrail_pole.mdl" "models/props_bts/handrail_pole/handrail_pole.qc"
+		}
+    }
+
+	"grate" // Grate props with hole contain multiple materials, which doesn't work well for propcombine
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/grates.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 16
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 64
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_grate/metal_grate_64.mdl" "models/props_grate/metal_grate_64/metal_grate_64.qc"
+		}
+    }
+
+	"underground_chair_lobby"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/underground_chairs.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 6
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 128
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_underground/chair_lobby.mdl" "models/props_underground/chair_lobby/chair_lobby.qc"
+			"models/props_underground/couch_lobby.mdl" "models/props_underground/couch_lobby.qc"
+		}
+    }
+
+	"underground_chair_folding"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/underground_chairs.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 12
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 128
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_underground/chair_folding_01.mdl" "models/props_underground/chair_folding_01/chair_folding_01.qc"
+		}
+    }
+
+	"underground_chair_padded"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/underground_chairs.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 6
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 128
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_underground/chair_office_padded_1980.mdl" "models/props_underground/chair_office_padded_1980/chair_office_padded_1980.qc"
+		}
+    }
+
+	"computer_cabinet_01"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/computer_servers.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 8
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 128
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_office/computer_cabinet01.mdl" "models/props_office/computer_cabinet01/computer_cabinet01.qc"
+			"models/props_office/computer_cabinet01a.mdl" "models/props_office/computer_cabinet01a/computer_cabinet01a.qc"
+			"models/props_office/computer_cabinet01b.mdl" "models/props_office/computer_cabinet01b/computer_cabinet01b.qc"
+		}
+    }
+
+	"computer_cabinet_02"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/computer_servers.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 8
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 128
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_office/computer_cabinet02.mdl" "models/props_office/computer_cabinet02/computer_cabinet02.qc"
+			"models/props_office/computer_cabinet02a.mdl" "models/props_office/computer_cabinet02a/computer_cabinet02a.qc"
+			"models/props_office/computer_cabinet02b.mdl" "models/props_office/computer_cabinet02b/computer_cabinet02b.qc"
+		}
+    }
+
+	"computer_tall_01"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/computer_servers.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 8
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 128
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_office/computer_tall01.mdl" "models/props_office/computer_tall01/computer_tall01.qc"
+			"models/props_office/computer_tall01a.mdl" "models/props_office/computer_tall01a/computer_tall01a.qc"
+			"models/props_office/computer_tall01b.mdl" "models/props_office/computer_tall01b/computer_tall01b.qc"
+		}
+    }
+
+	"file_cabinet"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/file_cabinets.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 8
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 64
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_underground/filecabinet_lobby.mdl" "models/props_underground/filecabinet_lobby/filecabinet_lobby.qc"
+			"models/props_underground/filecabinet_lobby_01.mdl" "models/props_underground/filecabinet_lobby_01/filecabinet_lobby_01.qc"
+			"models/props_underground/filecabinet_lobby_01a.mdl" "models/props_underground/filecabinet_lobby_01a/filecabinet_lobby_01a.qc"
+			"models/props_underground/filecabinet_lobby_01b.mdl" "models/props_underground/filecabinet_lobby_01b/filecabinet_lobby_01b.qc"
+		}
+    }
+
+	"underground_gantry_single"
+    {
+        // this is a stub qc that will be used to generate combined models
+		"qc_template_path"	"scripts/hammer/spcombinerules/qc_templates/underground_gantries.qc"
+		
+		// max models per cluster using these peers
+		"cluster_limit" 8
+		
+		// don't cluster models greater than this far apart
+		"distance_limit" 300
+
+		// these are models that can combine with each other
+		"peers"
+		{
+			"models/props_underground/gantry_256_single01.mdl" "models/props_underground/gantry_256_single01/gantry_256_single01.qc"
+			"models/props_underground/gantry_256_single02.mdl" "models/props_underground/gantry_256_single02/gantry_256_single02.qc"
+		}
+    }
+}

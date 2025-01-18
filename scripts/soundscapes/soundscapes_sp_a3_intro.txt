@@ -1,0 +1,138 @@
+"Revo.A3_Intro.Bts_Med" 
+{
+ // TODO
+	"playsoundscape" 
+	{
+		"name" "Revo.A3_Intro.Elevator_Med"
+	}
+}
+
+"Revo.A3_Intro.Elevator_Med"
+{
+	"playsoundscape" 
+	{
+		"name" "Base.Air.IndustrialInterior01"
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave" "ambient\industrial\amb_industrial_muffled_lp_05.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"Revo.A3_Intro.Checkpoint_1" 
+{
+	"playsoundscape" 
+	{
+		"name" "Revo.A3_Intro.Elevator_Med"
+	}
+}
+
+"Revo.A3_Intro.Lobby_Interior"
+{
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"	"ambient\industrial\amb_industrial_medium_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"	"ambient\wind\amb_eerie_wind_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"Revo.A3_Intro.Lobby_Cave"
+{
+	"dsp" "25"
+	"dsp_volume" "1"
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"	"ambient\industrial\amb_industrial_medium_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume" "0.2"
+		"wave" "ambient\nature\water\amb_light_waterlap_lp_01.wav"
+		
+		"pitch"		"100"
+		"attenuation"	"0.4"
+		"position" "0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"wave"	"ambient\wind\amb_eerie_wind_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playrandom" {
+		"volume"	"0.4"
+		"pitch"		"100"
+		"time"		"16.0, 34.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL85dB"
+		"rndwave" {
+			"wave" "ambient\random_abstract\amb_boomer_02.wav"
+			"wave" "ambient\random_abstract\amb_boomer_03.wav"
+			"wave" "ambient\random_abstract\amb_boomer_05.wav"
+		}
+	}
+
+	"playrandom" {
+		"volume"	"0.2"
+		"pitch"		"100"
+		"time"		"10.0, 25.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave" {
+			"wave" "ambient\organic\amb_rock_fall_01.wav"
+			"wave" "ambient\organic\amb_rock_fall_02.wav"
+			"wave" "ambient\organic\amb_rock_fall_03.wav"
+			"wave" "ambient\organic\amb_rock_fall_04.wav"
+			"wave" "ambient\organic\amb_rock_fall_05.wav"
+			"wave" "ambient\organic\amb_rock_fall_06.wav"
+		}
+	}
+}
+
+"Revo.A3_Intro.Lobby_Cave_low"
+{
+	"dsp" "24"
+	"dsp_volume" "1"
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"	"ambient\industrial\amb_industrial_medium_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"wave"	"ambient\wind\amb_eerie_wind_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}

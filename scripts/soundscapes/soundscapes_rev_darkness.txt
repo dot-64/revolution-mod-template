@@ -1,0 +1,334 @@
+"darkness.bts_catwalk_01"
+{
+	"dsp" "9"
+
+	"playlooping"
+	{
+		"volume"	"1"
+
+		"wave"	"ambient\atmosphere\drone4lp.wav"
+
+		"pitch"		"90"
+		"attenuation"	"0"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"time"		"12.0, 20.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\gust_int_01.wav"
+			"wave"	"ambient\atmosphere\gust_int_02.wav"
+			"wave"	"ambient\atmosphere\gust_int_03.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"time"		"8.0, 18.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_01.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_05.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_09.wav"
+		}
+	}
+}
+
+"darkness.observation_01"
+{
+	"dsp" "8"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+
+		"wave"	"ambient\atmosphere\ambience_base.wav"
+
+		"pitch"		"80"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+
+		"wave"	"ambient\electrical\amb_hotel_refrigeration_lp_01.wav"
+		"position" "0"
+
+		"pitch"		"90"
+		"attenuation"	"0"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"time"		"12.0, 20.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"attenuation"	"3"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\gust_int_01.wav"
+			"wave"	"ambient\atmosphere\gust_int_02.wav"
+			"wave"	"ambient\atmosphere\gust_int_03.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"time"		"8.0, 18.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"attenuation"	"3"
+		"rndwave"
+		{
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_01.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_05.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_09.wav"
+		}
+	}
+}
+"darkness.chamber_01"
+{
+	"dsp" "9"
+
+	"playlooping"
+	{
+		"volume"	"0.75"
+
+		"wave"	"ambient\atmosphere\ambience_base.wav"
+
+		"pitch"		"80"
+		"attenuation"	"0"
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"time"		"12.0, 20.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"attenuation"	"3"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\gust_int_01.wav"
+			"wave"	"ambient\atmosphere\gust_int_02.wav"
+			"wave"	"ambient\atmosphere\gust_int_03.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"time"		"8.0, 18.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"attenuation"	"3"
+		"rndwave"
+		{
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_01.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_05.wav"
+			"wave"	"ambient\industrial\amb_muffled_lo_mach_09.wav"
+		}
+	}
+}
+"darkness.quiet_office_01"
+{
+	"dsp" "9"
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+
+		"wave"	"ambient\atmosphere\drone4lp.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+"darkness.elevatorbreak"
+{
+	"dsp"	"21"
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient/industrial/amb_industrial_medium_lp_01.wav"
+		"pitch"		"85"
+		"attenuation"	"0"
+	}
+}
+"beach.start"
+{
+	"dsp" "25"
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+
+		"wave"	"ambient\nature\water\amb_light_waterlap_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playrandom"
+	{
+		"volume"	"0.9"
+		"pitch"		"80, 120"
+		"time"		"8.0, 18.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"attenuation"	"3"
+		"rndwave"
+		{
+			"wave"	"ambient\random_abstract\amb_boomer_01.wav"
+			"wave"	"ambient\random_abstract\amb_boomer_03.wav"
+			"wave"	"ambient\random_abstract\amb_boomer_05.wav"
+			"wave"	"ambient\random_abstract\amb_boomer_06.wav"
+			"wave"	"ambient\random_abstract\amb_boomer_07.wav"
+		}
+	}
+}
+"beach.entering_aperture"
+{
+
+	"dsp" "25"
+
+	"playlooping"
+	{
+		"volume"	"0.1"
+
+		"wave"	"ambient\nature\water\amb_light_waterlap_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playrandom"
+	{
+		"volume"	"0.3"
+		"pitch"		"80, 120"
+		"time"		"8.0, 18.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"attenuation"	"3"
+		"rndwave"
+		{
+			"wave"	"ambient\random_abstract\amb_boomer_01.wav"
+			"wave"	"ambient\random_abstract\amb_boomer_03.wav"
+			"wave"	"ambient\random_abstract\amb_boomer_05.wav"
+			"wave"	"ambient\random_abstract\amb_boomer_06.wav"
+			"wave"	"ambient\random_abstract\amb_boomer_07.wav"
+		}
+	}
+	"playrandom"
+	{
+		"volume"	"0.5"
+		"pitch"		"95, 110"
+		"time"		"12.0, 20.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL55dB"
+		"attenuation"	"3"
+		"rndwave"
+		{
+			"wave"	"playonce\ambient\metal\amb_metal_bowed_wronk_02.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_bowed_wronk_03.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_bowed_wronk_06.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_bowed_wronk_11.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_bowed_wronk_12.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_bowed_wronk_14.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_bowed_wronk_15.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_bowed_wronk_17.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_groan_low_01.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_groan_low_03.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_groan_low_04.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_groan_low_05.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_imp_warehouse_44.wav"
+			"wave"	"playonce\ambient\metal\amb_metal_imp_warehouse_34.wav"
+		}
+	}
+}
+
+
+"TestChamber.dark_liquid_01"
+{
+	"dsp"	"1"
+	"fadetime" "1"
+
+
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"wave"		"ambient/industrial/amb_industrial_muffled_lp_03.wav"
+		"pitch"		"100"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"wave"		"ambient/Tones/Amb_Abstract_air_lp_08.wav"
+		"pitch"		"75"
+
+	}
+
+	"playlooping"
+	{
+		"volume"	".28"
+		"pitch"		"115"
+		"wave"		"ambient/nature/water/amb_Indoor_water_sludge_lp_01.wav"
+		"position" 	"0"
+		"soundlevel" 	"SNDLVL_80dB"
+	}
+
+
+
+	"playsoundscape"
+	{
+		"name" "util.abstract.random.ambient.hi"
+		"volume" ".24"
+	}
+
+	"playsoundscape"
+	{
+		"name" "util.abstract.random.ambient"
+		"volume" ".45"
+	}
+
+	"playsoundscape"
+	{
+		"name" "util.tech.random.ambient.hi"
+		"volume" ".25"
+	}
+}
+
+"SpookyLab.Base_01"
+{
+	"dsp" "1"
+
+	"playrandom"
+	{
+		"volume"	"0.3"
+		"pitch"		"85, 120"
+		"time"		"7.0, 20.0"
+		"soundlevel"	"SNDLVL55dB"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\gust_int_01.wav"
+			"wave" "ambient\atmosphere\gust_int_02.wav"
+			"wave" "ambient\atmosphere\gust_int_03.wav"
+		}
+	}
+}

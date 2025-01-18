@@ -1,0 +1,8 @@
+"ambient.weather.thunder_01"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"volume"		"1"
+	"pitch"			"100"
+	"wave"			"ambient/thunder/thunder_01.wav"
+}

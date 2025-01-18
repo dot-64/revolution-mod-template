@@ -1,0 +1,94 @@
+// sp_a3_vactube_pipes
+
+"music.sp_a3_vactube_pipes_oneshot"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a3_vactube_pipes_oneshot.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+		}
+	}
+}
+"music.sp_a3_vactube_pipes_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a3_vactube_pipes_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_in"
+			{
+				"input_max" "0.25"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.25"
+			}
+
+			// Speed gel
+			"import_stack" 			"p2_update_music_play_speed_gel"
+			"speed_velocity_trigger"
+			{
+				"input2" "300"
+			}
+
+			"speed_play_entry"
+			{
+				"entry_name" "music.sp_a3_vactube_pipes_a0_speed"
+			}
+			"speed_stop_entry"
+			{
+				"match_entry" "music.sp_a3_vactube_pipes_a0_speed"
+			}
+		}
+	}
+}
+"music.sp_a3_vactube_pipes_a0_speed"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"0.5"
+
+	"wave"	"*music/revolution/sp_a3_vactube_pipes_a0_speed.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a3_vactube_pipes_a0"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_in"
+			{
+				"input_max" "0.75"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.75"
+			}
+		}
+	}
+}

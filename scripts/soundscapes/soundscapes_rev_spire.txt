@@ -1,0 +1,139 @@
+"Spire.PlayerTeleportConcussion"
+{
+	// This is a custom dsp
+	"dsp" "134"
+	"fadetime" "0"
+	
+	"playlooping"
+	{
+		"pitch" "75"
+		"volume" "1.0"
+		"wave" "ambient\electrical\amb_abstract_energy_lp_01.wav"
+	}
+
+	"playlooping"
+	{
+		"pitch" "100"
+		"volume" "1.0"
+		"wave" "ambient\tones\amb_abstract_air_lp_06.wav"
+	}
+}
+
+"Spire.Offices"
+{
+	"dsp" "1"
+	"playlooping"
+	{
+		"volume" "0.5"
+		"wave"	"ambient\industrial\amb_industrial_muffled_lp_01.wav"
+		"pitch"		"90"
+	}
+	"playlooping"
+	{
+		"volume" "0.7"
+		"wave"	"ambient\tones\amb_abstract_air_lp_01.wav"
+		"pitch"		"80"
+	}
+	
+}
+	
+"Spire.Offices_Quiet"
+{
+	"dsp" "1"
+	"playlooping"
+	{
+		"volume" "0.2"
+		"wave"	"ambient\industrial\amb_industrial_muffled_lp_01.wav"
+		"pitch"		"80"
+	}
+	"playlooping"
+	{
+		"volume" "0.4"
+		"wave"	"ambient\tones\amb_abstract_air_lp_02.wav"
+		"pitch"		"100"
+	}
+	
+}
+
+"Spire.Incinerator"
+{
+	"dsp" "30"
+	"playlooping"
+	{
+		"volume" "0.1"
+		"wave"	"ambient\industrial\warehouse_ambience_lp_01.wav"
+		"pitch"		"90"
+	}
+	"playlooping"
+	{
+		"volume" "0.2"
+		"wave"	"ambient\tones\amb_abstract_air_lp_07.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume" "0.3"
+		"wave"	"ambient\industrial\amb_industrial_muffled_lp_04.wav"
+		"pitch"		"80"
+	}
+	
+}
+	
+"Spire.Chamber_01"
+{
+	"dsp" "20"
+	"playlooping"
+	{
+		"volume" "0.4"
+		"wave"	"ambient\industrial\warehouse_ambience_lp_01.wav"
+		"pitch"		"90"
+	}
+	"playlooping"
+	{
+		"volume" "0.5"
+		"wave"	"ambient\tones\amb_abstract_air_lp_07.wav"
+		"pitch"		"100"
+	}
+	"playlooping"
+	{
+		"volume" "0.3"
+		"wave"	"ambient\industrial\amb_industrial_muffled_lp_04.wav"
+		"pitch"		"105"
+	}
+	
+}
+	
+"Spire.CoreChamber" {
+
+	"dsp" "10"
+
+	"playlooping" {
+		"wave" "ambient\metal\amb_motor_warehouse_lp_01.wav"
+		"volume" "0.5"
+		"pitch"		"115"
+	}
+	"playlooping" {
+		"volume" "0.4"
+		"wave"	"ambient\industrial\warehouse_ambience_lp_01.wav"
+		"pitch"		"80"
+	}
+	"playlooping" {
+		"volume" "0.8"
+		"wave"	"ambient\tones\amb_abstract_air_lp_04.wav"
+		"pitch"		"120"
+	}
+
+}
+
+
+"Spire.Credits" {
+
+	"dsp" "1"
+
+	"playlooping" {
+		"wave" "ambient\tones\amb_abstract_air_lp_06.wav"
+		"volume" "0.5"
+		"pitch"		"90"
+	}
+
+}

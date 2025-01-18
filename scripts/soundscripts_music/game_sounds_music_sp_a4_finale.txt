@@ -1,0 +1,260 @@
+// sp_a4_finale
+
+"music.sp_a4_finale_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a4_finale_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"stop_entry"
+			{
+				"input_execute" "1"	
+				"operator" "sys_stop_entries"
+				"input_max_entries" "0.000000"
+				"match_entity" "false"
+				"match_substring" "true"
+				"match_entry" "music"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"import_stack" "p2_update_music_play_tbeam"
+			"volume_fade_in"
+			{
+				"input_max" "0.25"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.25"
+			}
+			"play_entry"
+			{
+				"entry_name" "music.sp_a4_finale_funnel_a0"
+			}	
+			"stop_entry"
+			{
+				"match_entry" "music.sp_a4_finale_funnel_a0"
+			}
+		}
+	}
+}
+"music.sp_a4_finale_funnel_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a4_finale_funnel_a0.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a4_finale_a0"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"mixer"
+			{
+				"mixgroup" "unduckedMusic"
+			}
+			"volume_fade_in"
+			{
+				"input_max" "1.0"
+				"input_map_min" "0.05"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.75"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+"music.sp_a4_finale_a1"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a4_finale_a1.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"stop_entry"
+			{
+				"input_execute" "1"	
+				"operator" "sys_stop_entries"
+				"input_max_entries" "0.000000"
+				"match_entity" "false"
+				"match_substring" "true"
+				"match_entry" "music"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"import_stack" "p2_update_music_play_tbeam"
+			"volume_fade_in"
+			{
+				"input_max" "0.25"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.25"
+			}
+			"play_entry"
+			{
+				"entry_name" "music.sp_a4_finale_funnel_a0"
+			}	
+			"stop_entry"
+			{
+				"match_entry" "music.sp_a4_finale_funnel_a0"
+			}
+		}
+	}
+}
+"music.sp_a4_finale_funnel_a1"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a4_finale_funnel_a1.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a4_finale_a1"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"mixer"
+			{
+				"mixgroup" "unduckedMusic"
+			}
+			"volume_fade_in"
+			{
+				"input_max" "1.0"
+				"input_map_min" "0.05"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.75"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+"music.sp_a4_finale_a2"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a4_finale_a2.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"stop_entry"
+			{
+				"input_execute" "1"	
+				"operator" "sys_stop_entries"
+				"input_max_entries" "0.000000"
+				"match_entity" "false"
+				"match_substring" "true"
+				"match_entry" "music"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"import_stack" "p2_update_music_play_tbeam"
+			"volume_fade_in"
+			{
+				"input_max" "0.25"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.25"
+			}
+			"play_entry"
+			{
+				"entry_name" "music.sp_a4_finale_funnel_a2"
+			}	
+			"stop_entry"
+			{
+				"match_entry" "music.sp_a4_finale_funnel_a2"
+			}
+		}
+	}
+}
+"music.sp_a4_finale_funnel_a2"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a4_finale_funnel_a2.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a4_finale_a2"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"mixer"
+			{
+				"mixgroup" "unduckedMusic"
+			}
+			"volume_fade_in"
+			{
+				"input_max" "1.0"
+				"input_map_min" "0.05"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.75"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}

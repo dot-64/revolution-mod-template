@@ -1,0 +1,89 @@
+// ==================================================== sp_a2_fling_intro
+
+"music.sp_a2_fling_intro_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a2_fling_intro_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_in"
+			{
+				"input_max" "0.5"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "1.0"
+			}
+
+			// Also works for flinging :)
+			// Speed gel
+			"import_stack" 			"p2_update_music_play_speed_gel"
+			"speed_velocity_trigger"
+			{
+				"input2" "300"
+			}
+
+			"speed_play_entry"
+			{
+				"entry_name" "music.sp_a2_fling_intro_a1"
+			}
+			"speed_stop_entry"
+			{
+				"match_entry" "music.sp_a2_fling_intro_a1"
+			}
+		}
+		"start_stack"
+		{
+			"stop_entry"
+			{
+				"operator"	"sys_stop_entries"
+				"input_max_entries"	"0.0000"
+				"match_entity"	"false"
+				"match_substring"	"true"
+				"match_entry"	"music"	
+			}
+		}
+	}
+}
+"music.sp_a2_fling_intro_a1"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"0.5"
+
+	"wave"	"*music/revolution/sp_a2_fling_intro_a1.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a2_fling_intro_a0"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_in"
+			{
+				"input_max" "0.75"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.75"
+			}
+		}
+	}
+}

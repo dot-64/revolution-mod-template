@@ -1,0 +1,532 @@
+
+
+// ==================================================== sp_a1_final_test
+
+"Revo_Core0.sp_a1_final_test_00"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_00.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_everywhere"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_01.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_everywhere"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_10_0"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_10_0.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_everywhere"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_10_1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_10_1.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_everywhere"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_30"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_30.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_31"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_31.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_32"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_32.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_33"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_33.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_34"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_34.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_35"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_35.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_41"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_41.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_42"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_42.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_43"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_43.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_50"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_50.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_51"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_51.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_52"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_52.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_52a"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_52a.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_52b"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_52b.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_53"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_53.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_54"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_54.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_55"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_55.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_56"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_56.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_57"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_57.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_58"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_58.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_59"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_59.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_60"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_60.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_70"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_70.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_71"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_71.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_72"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_72.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_73"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_73.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_73a"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_73a.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_74"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_74.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}
+"Revo_Core0.sp_a1_final_test_75"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_160dB"
+	"wave"		"vo/revo_core0/sp_a1_final_test_75.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core0_spatial"
+		}
+	}
+}

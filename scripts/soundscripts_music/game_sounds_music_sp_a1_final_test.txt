@@ -1,0 +1,172 @@
+// sp_a1_final_test
+
+// ======================== Chamber 1 ========================
+
+"music.sp_a1_final_test_ch1_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a1_final_test_ch1_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_in"
+			{
+				"input_max" "0.0"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "1.0"
+			}
+		}
+		"stop_stack"
+		{
+			"stop_entry"
+			{
+				"operator"	"sys_stop_entries"
+				"input_max_entries"	"0.0000"
+				"match_entity"	"false"
+				"match_substring"	"true"
+				"match_entry"	"music"	
+			}
+		}
+	}
+}
+
+"music.sp_a1_final_test_ch1_catcher_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"0.3"
+
+	"wave"	"*music/revolution/sp_a1_final_test_ch1_catcher_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a1_final_test_ch1_a0"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+			"speakers_spatialize"
+			{
+				"input_radius"	"600"
+			}
+		}
+	}
+}
+
+// ======================== Chamber 2 ========================
+
+"music.sp_a1_final_test_ch2_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a1_final_test_ch2_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_in"
+			{
+				"input_max" "0.5"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "1.0"
+			}
+		}
+		"stop_stack"
+		{
+			"stop_entry"
+			{
+				"operator"	"sys_stop_entries"
+				"input_max_entries"	"0.0000"
+				"match_entity"	"false"
+				"match_substring"	"true"
+				"match_entry"	"music"	
+			}
+		}
+	}
+}
+
+"music.sp_a1_final_test_ch2_catcher_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"0.3"
+
+	"wave"	"*music/revolution/sp_a1_final_test_ch2_catcher_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a1_final_test_ch2_a0"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+			"speakers_spatialize"
+			{
+				"input_radius"	"600"
+			}
+		}
+	}
+}
+
+"music.sp_a1_final_test_ch2_fling_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_150dB"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a1_final_test_ch2_fling_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a1_final_test_ch2_a0"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+			"speakers_spatialize"
+			{
+				"input_radius"  "300000"
+			}
+		}
+	}
+}

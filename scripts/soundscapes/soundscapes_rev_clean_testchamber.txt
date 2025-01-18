@@ -1,0 +1,72 @@
+"Revo_Chamber_Quiet"
+{
+
+	"playrandom"
+	{
+		"volume"	"0.3"
+		"pitch"		"100"
+		"time"		"30, 60.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient/atmosphere/drone1lp.wav"
+			"wave"	"ambient/atmosphere/drone2lp.wav"
+			"wave"	"ambient/atmosphere/drone4lp.wav"
+			"wave"	"ambient/atmosphere/gust_int_01.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.8"
+
+		"wave"	"ambient/atmosphere/ind_int_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+
+		"wave"	"ambient/atmosphere/quiet_cellblock_amb.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"Chamber_SmallRoom_01"
+{
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\industrial\amb_industrial_medium_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.6"
+		"wave"	"ambient\atmosphere\ind_int_lp_01.wav"
+	}
+}
+
+"Chamber_SmallRoom_BehindGlass"
+{
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\atmosphere\drone2lp.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\industrial\amb_industrial_medium_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"wave"	"ambient\tones\amb_abstract_air_lp_08.wav"
+	}
+}

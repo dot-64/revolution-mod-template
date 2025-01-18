@@ -1,0 +1,171 @@
+"Resource/UI/Audio.res"
+{
+	"Audio"
+	{
+		"ControlName"		"Frame"
+		"fieldName"			"Audio"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"7"
+		"tall"				"3"
+		"autoResize"		"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"dialogstyle"		"1"
+	}
+	
+	"SldGameVolume"
+	{
+		"ControlName"			"SliderControl"
+		"fieldName"				"SldGameVolume"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"minValue"				"0.0"
+		"maxValue"				"1.0"
+		"stepSize"				"0.05"
+		"navUp"					"BtnSetupMicrophone"
+		"navDown"				"SldMusicVolume"
+		"conCommand"			"volume"
+		"inverseFill"			"0"
+				
+		//button and label
+		"BtnDropButton"
+		{
+			"ControlName"			"BaseModHybridButton"
+			"fieldName"				"BtnDropButton"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"0"
+			"wide"					"0"
+			"tall"					"0"
+			"autoResize"			"1"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"tabPosition"			"0"
+			"labelText"				"#L4D360UI_AudioOptions_Volume"
+			"style"					"LeftDialogButton"
+			"command"				""
+			"ActivationType"		"1"
+			"usablePlayerIndex"		"nobody"
+		}
+	}
+	
+	"SldMusicVolume"
+	{
+		"ControlName"			"SliderControl"
+		"fieldName"				"SldMusicVolume"
+		"xpos"					"0"
+		"ypos"					"25"
+		"wide"					"0"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"minValue"				"0.0"
+		"maxValue"				"1.0"
+		"stepSize"				"0.05"
+		"navUp"					"SldGameVolume"
+		"navDown"				"DrpSpeakerConfiguration"
+		"conCommand"			"snd_volume_music"
+		"inverseFill"			"0"
+		
+		//button and label
+		"BtnDropButton"
+		{
+			"ControlName"			"BaseModHybridButton"
+			"fieldName"				"BtnDropButton"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"0"
+			"wide"					"0"
+			"tall"					"0"
+			"autoResize"			"1"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"tabPosition"			"0"
+			"labelText"				"#L4D360UI_AudioOptions_MusicVolume"
+			"style"					"LeftDialogButton"
+			"command"				""
+			"ActivationType"		"1"
+			"usablePlayerIndex"		"nobody"
+		}
+	}
+	
+	"DrpSpeakerConfiguration"
+	{
+		"ControlName"		"BaseModHybridButton"
+		"fieldName"			"DrpSpeakerConfiguration"
+		"xpos"				"0"
+		"ypos"				"75"
+		"wide"				"0"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"navUp"				"SldMusicVolume"
+		"navDown"			"DrpSoundQuality"
+		"labelText"			"#GameUI_SpeakerConfiguration"
+		"style"				"DialogListButton"
+		"list"
+		{
+			"#GameUI_Headphones"	"#GameUI_Headphones"
+			"#GameUI_2Speakers"		"#GameUI_2Speakers"
+			"#GameUI_4Speakers"		"#GameUI_4Speakers"
+			"#GameUI_5Speakers"		"#GameUI_5Speakers"
+		}
+	}
+	
+	"DrpSoundQuality"
+	{
+		"ControlName"		"BaseModHybridButton"
+		"fieldName"			"DrpSoundQuality"
+		"xpos"				"0"
+		"ypos"				"100"
+		"wide"				"0"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"navUp"				"DrpSpeakerConfiguration"
+		"navDown"			"DrpPuzzlemakerSounds"
+		"labelText"			"#GameUI_SoundQuality"
+		"style"				"DialogListButton"
+		"list"
+		{
+			"#GameUI_Low"		"#GameUI_Low"
+			"#GameUI_Medium"	"#GameUI_Medium"
+			"#GameUI_High"		"#GameUI_High"
+		}
+	}
+
+	"DrpCaptioning"
+	{
+		"ControlName"		"BaseModHybridButton"
+		"fieldName"			"DrpCaptioning"
+		"xpos"				"0"
+		"ypos"				"125"
+		"wide"				"0"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"navUp"				"DrpPuzzlemakerSounds"
+		"navDown"			"DrpLanguage"
+		"labelText"			"#L4D360UI_AudioOptions_Caption"
+		"style"				"DialogListButton"
+		"list"
+		{
+			"#L4D360UI_AudioOptions_CaptionOff"			"#L4D360UI_AudioOptions_CaptionOff"
+			"#L4D360UI_AudioOptions_CaptionSubtitles"	"#L4D360UI_AudioOptions_CaptionSubtitles"
+			"#L4D360UI_AudioOptions_CaptionOn"			"#L4D360UI_AudioOptions_CaptionOn"
+		}
+	}
+}

@@ -1,0 +1,194 @@
+//
+//
+//
+//
+// README FIRST!!!
+//
+// Due to a limitation in the sound emitter system that we shipped on PS3,
+// the original sound scripts must NOT be changed after ship on PC/Mac
+// until we can patch PS3 and fix the issue for real.
+//
+// You will get a fatal error on startup if you do so.
+//
+// If you need to add more sounds, you MUST add them to a NEW sound script file
+// and reference that file at the BOTTOM of this list after the designated
+// marker ("new_sound_scripts_must_go_below_here").
+//
+//
+//
+//
+game_sounds_manifest
+{
+	"precache_file"		"scripts/soundscripts_original/game_sounds.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_ui.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_player.txt"
+
+	// HL2 World, Ambient Generic, Items, Physics, Vehicles
+	"precache_file"		"scripts/soundscripts_original/game_sounds_physics.txt"
+
+	// Game level sounds
+	"precache_file"		"scripts/soundscripts_original/level_sounds_aperture.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_portal.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_weapons_portal.txt"
+	"precache_file"		"scripts/soundscripts_original/npc_sounds_energy_ball.txt"
+
+	// Aperture
+	"precache_file"		"scripts/soundscripts_original/game_sounds_props_aperture.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_animation.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_auto_generated.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_turret_auto_generated.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_world.txt"
+
+	"precache_file"		"scripts/soundscripts_original/level_sounds_tempcontent.txt"
+	
+
+	//Portal content Sounds
+	"precache_file"		"scripts/soundscripts_original/level_sounds_music_portal.txt"
+	"precache_file"		"scripts/soundscripts_original/level_sounds_escape.txt"
+	"precache_file"		"scripts/soundscripts_original/npc_sounds_energy_ball.txt"
+	"precache_file"		"scripts/soundscripts_original/npc_sounds_turret_portal.txt"
+	"precache_file"		"scripts/soundscripts_original/npc_sounds_glados_cores.txt"
+	
+	//Co-op bots
+	"precache_file"		"scripts/soundscripts_original/game_sounds_ballbot.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_eggbot.txt"
+	
+	// NPC Sounds
+	"precache_file"		"scripts/soundscripts_original/npc_sounds_combine_ball.txt"
+	"precache_file"		"scripts/soundscripts_original/npc_sounds_combine_ball_episodic.txt"
+	"precache_file"		"scripts/soundscripts_original/npc_sounds_turret.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_npc.txt"
+
+	// Player
+	"precache_file"		"scripts/soundscripts_original/game_sounds_player_portal2.txt"
+
+	// Items
+	"precache_file"		"scripts/soundscripts_original/game_sounds_nugget.txt"
+	
+	// Paint
+	"precache_file"		"scripts/soundscripts_original/game_sounds_weapons_paintgun.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_paint_player.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_paint.txt"
+	
+	// Scripted Sequences / Cinematics / Set Pieces
+	"precache_file"		"scripts/soundscripts_original/game_sounds_scripted_sequence.txt"
+	
+	// VFX / Particles / Beams
+	"precache_file"		"scripts/soundscripts_original/game_sounds_vfx.txt"
+
+	// Music
+	// Contains some generic soundscripts which Portal: Revolution also needs
+	"precache_file"		"scripts/soundscripts_original/game_sounds_music.txt"
+
+	// ----
+	// PRECACHE NEW SOUND SCRIPTS HERE!
+	// ----
+
+	//BR
+	"precache_file"		"scripts/soundscripts_original/game_sounds_BR_world.txt"
+
+	// 	taunts for the store
+	"precache_file"		"scripts/soundscripts_original/game_sounds_taunts_egg.txt"
+	"precache_file"		"scripts/soundscripts_original/game_sounds_taunts_ball.txt"
+
+	//DLC1
+	"precache_file"		"scripts/soundscripts_original/game_sounds_dlc1_world.txt"
+	//DLC2
+	"precache_file"		"scripts/soundscripts_original/game_sounds_editor.txt"
+
+	//Portal: Revolution
+	"precache_file"		"scripts/game_sounds_revolution_voice.txt" // Misc voice lines
+	"precache_file"		"scripts/game_sounds_revolution_misc.txt"
+	"precache_file"		"scripts/game_sounds_revolution_weather.txt"
+	"precache_file"		"scripts/game_sounds_revolution_spire.txt"
+	"precache_file"		"scripts/game_sounds_revolution_ui.txt"
+
+	"precache_file"		"scripts/game_sounds_live_overgrown.txt" // Sound effects from Menacing Pooldive workshop map
+	"precache_file"		"scripts/game_sounds_turrets_ex.txt"
+
+	// Portal: Revolution Voice-Over
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_foley.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_trailer.txt"
+
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a1_begin.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a1_portalgun.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a1_fizzler_intro.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a1_laser_intro.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a1_cube_fling_intro.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a1_catapult_intro.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a1_final_test.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a1_bts_wind.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a1_bts_wind_2.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a1_bts_chambers.txt"
+
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a2_outside.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a2_fling_intro.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a2_paints.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a2_paint_fizzler.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a2_speed_gel.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a2_full_portalgun.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a2_playground.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a2_tbeam_flings.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a2_double_fling.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a2_end.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a2_end_2.txt"
+
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a3_intro.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a3_vactube_intro.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a3_labs.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a3_vactube_lumber.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a3_lake.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a3_vactube_cuberemove.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a3_vactube_pipes.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a3_vactube_gelbending.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a3_climb.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a3_vactube_flings.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a3_vactube_hanging.txt"
+
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a4_intro.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a4_schrodinger_intro.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a4_schrodinger_vertical.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a4_schrodinger_flings.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a4_schrodinger_final.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a4_transition.txt"
+	"precache_file"		"scripts/soundscripts_vo/game_sounds_vo_sp_a4_finale.txt"
+
+
+	// Portal: Revolution Music
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a1_begin.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a1_portalgun.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a1_fizzler_intro.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a1_laser_intro.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a1_cube_fling_intro.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a1_catapult_intro.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a1_final_test.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a1_bts_wind.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a1_bts_wind_2.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a1_bts_chambers.txt"
+
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a2_outside.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a2_fling_intro.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a2_paints.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a2_speed_gel.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a2_playground.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a2_end.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a2_end_2.txt"
+
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a3_intro.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a3_lake.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a3_climb.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a3_vactube_intro.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a3_vactube_pipes.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a3_vactube_flings.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a3_vactube_lumber.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a3_vactube_hanging.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a3_vactube_cuberemove.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a3_vactube_gelbending.txt"
+
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a4_schrodinger_intro.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a4_schrodinger_vertical.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a4_schrodinger_flings.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a4_schrodinger_final.txt"
+	"precache_file"		"scripts/soundscripts_music/game_sounds_music_sp_a4_finale.txt"
+
+}

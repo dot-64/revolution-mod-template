@@ -1,0 +1,38 @@
+
+"Revo.A3_Climb.Bts_01"
+{
+	"dsp" "25"
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\industrial\warehouse_ambience_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"	"ambient\wind\amb_eerie_wind_lp_01.wav"
+	}
+	"playrandom"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"time"		"10.0, 17.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL40dB"
+		"rndwave"
+		{
+			"wave"	"ambient\industrial\warehouse_ambience_rand_01.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_03.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_04.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_06.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_07.wav"
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.25"
+		"position"	"0"
+		"wave"	"ambient\props\electric\amb_bts_generator_lp_01.wav"
+		"attenuation"	"0.5"
+	}
+}

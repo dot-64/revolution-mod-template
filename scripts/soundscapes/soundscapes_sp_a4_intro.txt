@@ -1,0 +1,102 @@
+"Revo.A4_Intro.Vista"
+{
+	"dsp" "20"
+
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"pitch"	"100"
+		"soundlevel" "SNDLVL40dB"
+		"wave" "ambient\nature\insects\amb_insects_lp_03.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.7"
+		"pitch"	"60"
+		"soundlevel" "SNDLVL40dB"
+		"wave" "ambient\wind\amb_eerie_wind_lp_01.wav"
+	}
+
+	
+	"playlooping"
+	{
+		"volume" "0.4"
+		"pitch" "100"
+		"soundlevel" "SNDLVL_40dB"
+
+		"wave" "ambient\atmosphere\cargo_hold2.wav"
+	}
+	
+}
+
+"Revo.A4_Intro.ElevatorHallway" 
+{
+	"dsp" "6"
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"	"100"
+		"soundlevel" "SNDLVL40dB"
+		"wave" "ambient\nature\insects\amb_insects_lp_03.wav"
+	}
+	"playlooping"
+	{
+		"volume" "0.4"
+		"pitch" "100"
+		"soundlevel" "SNDLVL_40dB"
+
+		"wave" "ambient\atmosphere\cargo_hold2.wav"
+	}
+	"playlooping"
+	{
+		"volume" "0.5"
+		"pitch" "120"
+		"soundlevel" "SNDLVL_20dB"
+
+		"wave" "ambient\atmosphere\drone2lp.wav"
+	}
+}
+
+"Revo.A4_Intro.Observation" 
+{
+	"dsp" "6"
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"	"100"
+		"soundlevel" "SNDLVL40dB"
+		"wave" "ambient\nature\insects\amb_insects_lp_03.wav"
+	}
+	"playlooping"
+	{
+		"volume" "0.4"
+		"pitch" "100"
+		"soundlevel" "SNDLVL_40dB"
+
+		"wave" "ambient\atmosphere\cargo_hold2.wav"
+	}
+	"playlooping"
+	{
+		"volume" "0.5"
+		"pitch" "120"
+		"soundlevel" "SNDLVL_20dB"
+
+		"wave" "ambient\atmosphere\drone2lp.wav"
+	}
+}
+
+"Revo.A4_Intro.Chamber" 
+{
+	"dsp" "6"
+
+	"playlooping"
+	{
+		"volume" "0.6"
+		"pitch" "100"
+		"soundlevel" "SNDLVL_40dB"
+
+		"wave" "ambient\atmosphere\cargo_hold2.wav"
+	}
+}

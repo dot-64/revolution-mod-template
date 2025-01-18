@@ -1,0 +1,74 @@
+// sp_a1_bts_chambers
+
+"music.sp_a1_bts_chambers_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a1_bts_chambers_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"stop_entry"
+			{
+				"input_execute" "1"	
+				"operator" "sys_stop_entries"
+				"input_max_entries" "0.000000"
+				"match_entity" "false"
+				"match_substring" "true"
+				"match_entry" "music"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"import_stack" "p2_update_music_play_tbeam"
+			"play_entry"
+			{
+				"entry_name" "music.sp_a1_bts_chambers_a0_funnel"
+			}	
+			"stop_entry"
+			{
+				"match_entry" "music.sp_a1_bts_chambers_a0_funnel"
+			}
+		}
+	}
+}
+"music.sp_a1_bts_chambers_a0_funnel"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a1_bts_chambers_funnel_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+		}
+	}
+}
+"music.sp_a1_bts_chambers_catcher_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a1_bts_chambers_catcher_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+		}
+	}
+}

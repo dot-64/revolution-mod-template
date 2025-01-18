@@ -1,0 +1,85 @@
+"#pr_singleplayer_title"
+{
+	"Chapter1a"
+	{
+		"title"		"#REVOLUTION_CHAPTER_1A_MENU_HEADING"
+		"subtitle"		"#REVOLUTION_CHAPTER_1A_SUBHEADING"
+		"pic"		"vgui/chapters/chapter1a"
+		"map"		"sp_a1_begin"
+	}
+	"Chapter1b"
+	{
+		"title"		"#REVOLUTION_CHAPTER_1B_MENU_HEADING"
+		"subtitle"		"#REVOLUTION_CHAPTER_1B_SUBHEADING"
+		"pic"		"vgui/chapters/chapter1b"
+		"map"		"sp_a1_bts_wind"
+	}
+
+	"Chapter2a"
+	{
+		"title"		"#REVOLUTION_CHAPTER_2A_MENU_HEADING"
+		"subtitle"		"#REVOLUTION_CHAPTER_2A_SUBHEADING"
+		"pic"		"vgui/chapters/chapter2a"
+		"map"		"sp_a2_outside"
+	}
+	"Chapter2b"
+	{
+		"title"		"#REVOLUTION_CHAPTER_2B_MENU_HEADING"
+		"subtitle"		"#REVOLUTION_CHAPTER_2B_SUBHEADING"
+		"pic"		"vgui/chapters/chapter2b"
+		"map"		"sp_a2_playground"
+	}
+	
+	"Chapter3a"
+	{
+		"title"		"#REVOLUTION_CHAPTER_3A_MENU_HEADING"
+		"subtitle"		"#REVOLUTION_CHAPTER_3A_SUBHEADING"
+		"pic"		"vgui/chapters/chapter3a"
+		"map"		"sp_a3_preintro"
+	}
+	"Chapter3b"
+	{
+		"title"		"#REVOLUTION_CHAPTER_3B_MENU_HEADING"
+		"subtitle"		"#REVOLUTION_CHAPTER_3B_SUBHEADING"
+		"pic"		"vgui/chapters/chapter3b"
+		"map"		"sp_a3_vactube_lumber"
+	}
+
+	"Chapter4a"
+	{
+		"title"		"#REVOLUTION_CHAPTER_4A_MENU_HEADING"
+		"subtitle"		"#REVOLUTION_CHAPTER_4A_SUBHEADING"
+		"pic"		"vgui/chapters/chapter4"
+		"map"		"sp_a4_intro"
+	}
+	"Chapter4b"
+	{
+		"title"		"#REVOLUTION_CHAPTER_4B_MENU_HEADING"
+		"subtitle"		"#REVOLUTION_CHAPTER_4B_SUBHEADING"
+		"pic"		"vgui/chapters/chapter4"
+		"map"		"sp_a4_schrodinger_intro"
+	}
+	"Chapter4c"
+	{
+		"title"		"#REVOLUTION_CHAPTER_4C_MENU_HEADING"
+		"subtitle"		"#REVOLUTION_CHAPTER_4C_SUBHEADING"
+		"pic"		"vgui/chapters/chapter4"
+		"map"		"sp_a4_finale"
+	}
+
+	//"CommentaryOn"
+	//{
+	//	"title"			"#pr_commentary_on"
+	//	"subtitle"		"#pr_commentary_on_subtitle"
+	//	"pic"			""
+	//	"command"		"commentary 1"
+	//}
+
+	//"CommentaryOff"
+	//{
+	//	"title"			"#pr_commentary_off"
+	//	"subtitle"		"#pr_commentary_off_subtitle"
+	//	"pic"			""
+	//	"command"		"commentary 0"
+	//}
+}

@@ -1,0 +1,18 @@
+// sp_a3_vactube_intro
+
+"music.sp_a3_vactube_intro_turret_oneshot"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a3_vactube_intro_turret_oneshot.wav"
+}
+"music.sp_a3_vactube_intro_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a3_vactube_intro_a0.wav"
+}

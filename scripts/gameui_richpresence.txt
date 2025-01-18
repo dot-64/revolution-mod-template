@@ -1,0 +1,31 @@
+"RichPresence"
+{
+    "MainMenu"
+    {
+        "discord"
+        {
+            "state" "Idling"
+            "name" "Portal: Revolution" 
+            "details" "Main Menu"
+            "assets"
+            {
+                "large_image" "logo_square"
+                "small_text" "Portal: Revolution"
+            }
+        }
+    }
+    "Options"
+    {
+        "discord"
+        {
+            "state" "Idling"
+            "name" "Portal: Revolution" 
+            "details" "Main Menu"
+            "assets"
+            {
+                "large_image" "logo_square"
+                "small_text" "Portal: Revolution"
+            }
+        }
+    }
+}

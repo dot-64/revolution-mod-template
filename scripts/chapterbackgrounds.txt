@@ -1,0 +1,16 @@
+"chapters"
+{
+	1	"menu_act1"
+}
+"BackgroundMaps"
+{
+	1	"menu_act1"
+	2	"menu_act1"
+	3	"menu_act2"
+	4	"menu_act2"
+	5	"menu_act3"
+	6	"menu_act3"
+	7	"menu_act4"
+	8	"menu_act4"
+	9	"menu_post"
+}

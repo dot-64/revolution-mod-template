@@ -1,0 +1,269 @@
+//-------------------------------------------------------------------------------
+// This file specifies which icons are going to show up on the lightboard at the 
+// beginning of the level if you need to add a new icon, you must add the actual 
+// icon to the end of the texture sheet AND add it to g_pszLightboardIcons in 
+// vgui_mp_lobby_screen
+//-------------------------------------------------------------------------------
+
+//These are the the startup sequences that can be used
+//Add more in lightboard_startup_sequences.txt
+//If none is specified then it will fallback to "default_flicker"
+//"normal_flicker"
+//"dirty_flicker"
+//"broken_flicker"
+
+//These are the icons that can be used
+//"cube_drop" "1"
+//"cube_button" "1"
+//"cube_bonk" "1"
+//"drink_water" "1"
+//"goop" "1"
+//"crushers" "1"
+//"laser_cube" "1"
+//"laser_power" "1"
+//"turret" "1"
+//"turret_burn" "1"
+//"portal_fling" "1"
+//"portal_fling_2" "1"
+//"plate_fling" "1"
+//"bridges" "1"
+//"bridge_block" "1"
+//"grinders" "1"
+//"tbeams" "1"
+//"tbeam_polarity" "1"
+//"paint_bounce" "1"
+//"paint_speed" "1"
+//"handoff" "1"
+//"button_stand" "1"
+//"danger_field" "1"
+
+//Dirt type
+//"dirt" 0, 1 or 2
+//0 will have the least dirt and 2 will have the most
+//If none is specified then there won't be a dirt overlay on the panel
+
+
+"sp_lightboard_icons" {
+	"Maps" {
+		
+		// Chapter 1
+
+		"sp_a1_begin" {
+			"level_number" "0"
+			"total_levels" "7"
+			"startup" "normal_flicker"
+
+			"icons"
+			{
+				"cube_drop" "0"
+				"cube_button" "0"
+				"button_stand" "0"
+				"goop" "0"
+				"bridges" "0"
+				"turret" "0"
+				"drink_water" "0"
+				"grinders" "0"
+			}
+		}
+		"sp_a1_portalgun" {
+			"level_number" "1"
+			"total_levels" "7"
+			"startup" "normal_flicker"
+
+			"icons"
+			{
+				"cube_drop" "1"
+				"cube_button" "1"
+				"cube_bonk" "1"
+				"button_stand" "1"
+				"goop" "0"
+				"portal_fling" "0"
+				"portal_fling_2" "0"
+				"turret" "0"
+				"drink_water" "0"
+				"grinders" "0"
+			}
+		}
+
+		"sp_a1_fizzler_intro" {
+			"level_number" "2"
+			"total_levels" "7"
+			"startup" "normal_flicker"
+
+			"icons"
+			{
+				"cube_drop" "1"
+				"cube_button" "1"
+				"cube_bonk" "1"
+				"goop" "0"
+				"bridges" "0"
+				"laser_cube" "1"
+				"laser_power" "1"
+				"turret" "0"
+				"turret_burn" "0"
+				"plate_fling" "0"
+			}
+		}
+
+	
+		"sp_a1_laser_intro" {
+			"level_number" "3"
+			"total_levels" "7"
+			"startup" "normal_flicker"
+
+			"icons"
+			{
+				"cube_drop" "1"
+				"cube_button" "1"
+				"cube_bonk" "1"
+				"goop" "1"
+				"bridges" "0"
+				"laser_cube" "1"
+				"laser_power" "1"
+				"turret" "0"
+				"crushers" "0"
+				"plate_fling" "0"
+			}
+		}
+
+		"sp_a1_cube_fling_intro" {
+			"level_number" "4"
+			"total_levels" "7"
+			"startup" "normal_flicker"
+
+			"icons"
+			{
+				"cube_drop" "1"
+				"cube_button" "1"
+				"cube_bonk" "1"
+				"goop" "1"
+				"bridges" "0"
+				"laser_cube" "1"
+				"laser_power" "1"
+				"turret" "0"
+				"turret_burn" "0"
+				"plate_fling" "0"
+			}
+		}
+
+		"sp_a1_catapult_intro" {
+			"level_number" "5"
+			"total_levels" "7"
+			"startup" "normal_flicker"
+
+			"icons"
+			{
+				"cube_drop" "1"
+				"cube_button" "1"
+				"cube_bonk" "1"
+				"goop" "1"
+				"bridges" "0"
+				"laser_cube" "0"
+				"laser_power" "0"
+				"danger_field" "1"
+				"plate_fling" "1"
+			}
+		}
+
+		"sp_a1_laser_advanced" {
+			"level_number" "6"
+			"total_levels" "7"
+			"startup" "normal_flicker"
+
+			"icons"
+			{
+				"cube_drop" "1"
+				"cube_button" "1"
+				"cube_bonk" "1"
+				"goop" "0"
+				"laser_cube" "1"
+				"laser_power" "1"
+				"turret_burn" "0"
+				"turret" "0"
+				"plate_fling" "0"
+			}
+		}
+
+		"sp_a1_final_test" {
+			"level_number" "7"
+			"total_levels" "7"
+			"startup" "normal_flicker"
+
+			"icons"
+			{
+				"cube_drop" "1"
+				"cube_button" "1"
+				"cube_bonk" "1"
+				"button_stand" "1"
+				"goop" "1"
+				"bridges" "1"
+				"laser_power" "1"
+				"turret" "0"
+				"drink_water" "1"
+				"plate_fling" "1"
+			}
+		}
+
+		"sp_a2_intro" {
+			"level_number" "1"
+			"total_levels" "14"
+			"startup" "dirty_flicker"
+			"dirt" "2"
+
+			"icons"
+			{
+				"cube_button" "1"
+				"goop" "0"
+				"paint_speed" "0"
+				"paint_bounce" "0"
+				"laser_power" "0"
+				"turret" "0"
+				"turret_burn" "0"
+				"portal_fling" "1"
+				"portal_fling_2" "1"
+				"plate_fling" "0"
+			}
+		}
+
+		"sp_a2_speed_gel" {
+			"level_number" "2"
+			"total_levels" "14"
+			"startup" "broken_flicker"
+			"dirt" "2"
+
+			"icons"
+			{
+				"cube_button" "1"
+				"goop" "1"
+				"paint_speed" "1"
+				"paint_bounce" "0"
+				"laser_power" "0"
+				"turret" "0"
+				"portal_fling" "1"
+				"portal_fling_2" "1"
+				"plate_fling" "0"
+			}
+		}
+
+		"sp_a3_vactube_flings" {
+			"dirt" "1"
+			"level_number" "2"
+			"total_levels" "5"
+			"startup" "normal_flicker"
+
+			"icons"
+			{
+				"cube_button" "1"
+				"goop" "1"
+				"paint_bounce" "0"
+				"bridges" "0"
+				"laser_power" "1"
+				"turret" "0"
+				"crushers" "0"
+				"tbeams" "1"
+				"tbeam_polarity" "1"
+				"plate_fling" "0"
+			}
+		}
+	}
+}

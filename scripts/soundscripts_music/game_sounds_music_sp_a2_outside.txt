@@ -1,0 +1,74 @@
+// sp_a2_outside
+
+"music.sp_a2_outside_cliffside_oneshot"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a2_outside_cliffside_oneshot.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+		}
+	}
+}
+"music.sp_a2_outside_cliffside_traverse_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a2_outside_cliffside_traverse_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "1.0"
+			}
+		}
+	}
+}
+"music.sp_a2_outside_facility_oneshot"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a2_outside_facility_oneshot.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+		}
+	}
+}
+"music.sp_a2_outside_overgrown_oneshot"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a2_outside_overgrown_oneshot.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+		}
+	}
+}

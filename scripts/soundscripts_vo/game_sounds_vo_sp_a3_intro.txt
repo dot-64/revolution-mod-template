@@ -1,0 +1,248 @@
+
+// ==================================================== sp_a3_intro
+
+"Revo_Core1.sp_a3_intro_00"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_intro_00.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+			"position_array"
+			{
+				"input_entry_count" "1"
+				// position 1
+				"input_position_0[0]"	"4192"
+				"input_position_0[1]"	"8000"
+				"input_position_0[2]"	"1800"
+			}
+
+			"speakers_spatialize"
+			{
+				"input_radius"  "50"
+			}
+
+			// Speaker VO is often way too quiet because occlusion is too high
+			"occlusion"
+			{
+				"input_scalar" "0.02"
+			}
+		}
+	}
+}
+"Revo_Core1.sp_a3_intro_01"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_intro_01.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+			"position_array"
+			{
+				"input_entry_count" "1"
+				// position 1
+				"input_position_0[0]"	"4192"
+				"input_position_0[1]"	"8000"
+				"input_position_0[2]"	"1800"
+			}
+
+			"speakers_spatialize"
+			{
+				"input_radius"  "50"
+			}
+
+			// Speaker VO is often way too quiet because occlusion is too high
+			"occlusion"
+			{
+				"input_scalar" "0.02"
+			}
+		}
+	}
+}
+"Revo_Core1.sp_a3_intro_02"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_intro_02.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+			"position_array"
+			{
+				"input_entry_count" "1"
+				// position 1
+				"input_position_0[0]"	"4192"
+				"input_position_0[1]"	"8000"
+				"input_position_0[2]"	"1800"
+			}
+
+			"speakers_spatialize"
+			{
+				"input_radius"  "50"
+			}
+
+			// Speaker VO is often way too quiet because occlusion is too high
+			"occlusion"
+			{
+				"input_scalar" "0.02"
+			}
+		}
+	}
+}
+"Revo_Core1.sp_a3_intro_03"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_intro_03.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+			"position_array"
+			{
+				"input_entry_count" "1"
+				// position 1
+				"input_position_0[0]"	"4192"
+				"input_position_0[1]"	"8000"
+				"input_position_0[2]"	"1800"
+			}
+
+			"speakers_spatialize"
+			{
+				"input_radius"  "50"
+			}
+
+			// Speaker VO is often way too quiet because occlusion is too high
+			"occlusion"
+			{
+				"input_scalar" "0.02"
+			}
+		}
+	}
+}
+"Revo_Core1.sp_a3_intro_04"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_intro_04.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+			"position_array"
+			{
+				"input_entry_count" "1"
+				// position 1
+				"input_position_0[0]"	"4192"
+				"input_position_0[1]"	"8000"
+				"input_position_0[2]"	"1800"
+			}
+
+			"speakers_spatialize"
+			{
+				"input_radius"  "50"
+			}
+
+			// Speaker VO is often way too quiet because occlusion is too high
+			"occlusion"
+			{
+				"input_scalar" "0.02"
+			}
+		}
+	}
+}
+"Revo_Core1.sp_a3_intro_05"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_intro_05.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+			"position_array"
+			{
+				"input_entry_count" "1"
+				// position 1
+				"input_position_0[0]"	"4192"
+				"input_position_0[1]"	"8000"
+				"input_position_0[2]"	"1800"
+			}
+
+			"speakers_spatialize"
+			{
+				"input_radius"  "50"
+			}
+
+			// Speaker VO is often way too quiet because occlusion is too high
+			"occlusion"
+			{
+				"input_scalar" "0.02"
+			}
+		}
+	}
+}
+"Revo_Core1.sp_a3_intro_06"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"vo/revo_core1/sp_a3_intro_06.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" "revo_update_dialog_core1_spatial"
+			"position_array"
+			{
+				"input_entry_count" "1"
+				// position 1
+				"input_position_0[0]"	"4192"
+				"input_position_0[1]"	"8000"
+				"input_position_0[2]"	"1800"
+			}
+
+			"speakers_spatialize"
+			{
+				"input_radius"  "50"
+			}
+
+			// Speaker VO is often way too quiet because occlusion is too high
+			"occlusion"
+			{
+				"input_scalar" "0.02"
+			}
+		}
+	}
+}

@@ -1,0 +1,129 @@
+// sp_a4_schrodinger_intro
+
+"music.sp_a4_schrodinger_intro_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a4_schrodinger_intro_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_in"
+			{
+				"input_max" "0.25"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.25"
+			}
+		}
+	}
+}
+"music.sp_a4_schrodinger_intro_catcher_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a4_schrodinger_intro_catcher_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a4_schrodinger_intro_a0"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+			"speakers_spatialize"
+			{
+				"input_radius"	"600"
+			}
+		}
+	}
+}
+"music.sp_a4_schrodinger_intro_relay_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a4_schrodinger_intro_relay_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a4_schrodinger_intro_a0"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+			"speakers_spatialize"
+			{
+				"input_radius"	"600"
+			}
+		}
+	}
+}
+"music.sp_a4_schrodinger_intro_shrodcube_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"0.8"
+
+	"wave"	"*music/revolution/sp_a4_schrodinger_intro_shrodcube_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a4_schrodinger_intro_a0"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+			"volume_fade_in"
+			{
+				"input_max" "0.25"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.25"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"	"600"
+			}
+			"source_info"
+			{
+				"source"   "entity"
+			}
+		}
+	}
+}

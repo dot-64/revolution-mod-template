@@ -1,0 +1,47 @@
+// sp_a1_portalgun
+
+"music.sp_a1_portalgun_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a1_portalgun_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+		}
+	}
+}
+"music.sp_a1_portalgun_pickup_oneshot"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a1_portalgun_pickup_oneshot.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+		}
+		"start_stack"
+		{
+			"stop_entry"
+			{
+				"operator"	"sys_stop_entries"
+				"input_max_entries"	"0.0000"
+				"match_entity"	"false"
+				"match_substring"	"true"
+				"match_entry"	"music"	
+			}
+		}
+	}
+}

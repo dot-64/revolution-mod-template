@@ -1,0 +1,9 @@
+"UIPanorama.mainmenu_rollover_01"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.1"
+	"soundlevel" 	"SNDLVL_110dB"
+	"pitch"		    "140"
+
+	"wave"			"ui/panorama/mainmenu_rollover_01.wav"
+}

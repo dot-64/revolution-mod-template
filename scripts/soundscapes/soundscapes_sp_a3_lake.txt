@@ -1,0 +1,390 @@
+
+"Revo.A3_Lake.Cave_int_01"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient\industrial\amb_industrial_medium_lp_01.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"	"ambient\wind\amb_eerie_wind_lp_01.wav"
+
+		"pitch"		"80"
+		"attenuation"	"1.2"
+	}
+	"playrandom"
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"time"		"18.0, 29.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL75dB"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\hole_hit1.wav"
+			"wave"	"ambient\atmosphere\hole_hit2.wav"
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\atmosphere\hole_hit4.wav"
+			"wave"	"ambient\atmosphere\hole_hit5.wav"
+		}
+	}
+}
+
+"Revo.A3_Lake.Cave_Int_02"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient\tones\amb_abstract_air_lp_08.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\atmosphere\cargo_hold2.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+}
+
+"Revo.A3_Lake.Claustrophobic_Cave_Water_01"
+{
+	"dsp" "24"
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient\atmosphere\drone4lp.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"	"ambient\nature\water\amb_light_waterlap_lp_01.wav"
+
+		"pitch"		"95"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient\nature\water\amb_waterleak_lp_01.wav"
+
+		"pitch"		"100"
+		"position" "0"
+		"attenuation"	"2.5"
+	}
+	"playrandom"
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"time"		"1.0, 7.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL40dB"
+		"rndwave"
+		{
+			"wave"	"ambient\nature\water\amb_waterdrips_01.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_05.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_08.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_13.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_17.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_19.wav"
+		}
+	}
+}
+
+"Revo.A3_Lake.Hallway_01"
+{
+	"dsp" "17"
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\atmosphere\drone2lp.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"	"ambient\atmosphere\ind_int_lp_01.wav"
+	}
+	"playrandom"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"time"		"10.0, 17.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL40dB"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\hole_hit1.wav"
+			"wave"	"ambient\atmosphere\hole_hit2.wav"
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\atmosphere\hole_hit4.wav"
+			"wave"	"ambient\atmosphere\hole_hit5.wav"
+		}
+	}
+}
+
+"Revo.A3_Lake.PumpStation_Exterior"
+{
+	"dsp" "18"
+	"playlooping"
+	{
+		"volume"	"0.8"
+		"wave"	"ambient\industrial\warehouse_ambience_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"	"ambient\wind\amb_eerie_wind_lp_01.wav"
+	}
+	"playrandom"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"time"		"10.0, 17.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL40dB"
+		"rndwave"
+		{
+			"wave"	"ambient\industrial\warehouse_ambience_rand_01.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_03.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_04.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_06.wav"
+			"wave"	"ambient\industrial\warehouse_ambience_rand_07.wav"
+		}
+	}
+	"playlooping"
+	{
+		"volume"	"0.25"
+		"position"	"0"
+		"wave"	"ambient\props\electric\amb_bts_generator_lp_01.wav"
+		"attenuation"	"0.5"
+	}
+}
+
+"Revo.A3_Lake.PumpStation_Interior"
+{
+	"dsp" "1"
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"	"ambient\wind\amb_eerie_wind_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"wave"	"ambient\tones\amb_abstract_air_lp_01.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.75"
+		"wave"	"ambient\nature\water\amb_bubbling_goo_lp_01.wav"
+		"position" "0"
+		"attenuation"	"0.5"
+	}
+}
+
+"Revo.A3_Lake.SpookyLab_01"
+{
+	"dsp" "1"
+
+	"playrandom"
+	{
+		"volume"	"0.3"
+		"pitch"		"85, 120"
+		"time"		"7.0, 20.0"
+		"soundlevel"	"SNDLVL55dB"
+		"rndwave"
+		{
+			"wave" "ambient\atmosphere\gust_int_01.wav"
+			"wave" "ambient\atmosphere\gust_int_02.wav"
+			"wave" "ambient\atmosphere\gust_int_03.wav"
+		}
+	}
+}
+
+"Revo.A3_Lake.Outlook_01"
+{
+	"dsp" "11"
+	
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"	"ambient\tones\amb_abstract_air_lp_08.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.1"
+		"wave"	"ambient\props\electric\amb_neon_hum_lp_01.wav"
+	}
+}
+"Revo.A3_Lake.Outlook_02"
+{
+	"dsp" "12"
+	
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"	"ambient\tones\amb_abstract_air_lp_08.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.3"
+		"wave"	"ambient\props\electric\amb_neon_hum_lp_01.wav"
+	}
+}
+
+"Revo.A3_Lake.Hallway_01"
+{
+	"dsp" "17"
+	"playlooping"
+	{
+		"volume"	"0.9"
+		"wave"	"ambient\atmosphere\drone2lp.wav"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"	"ambient\atmosphere\ind_int_lp_01.wav"
+	}
+	"playrandom"
+	{
+		"volume"	"0.5"
+		"pitch"		"80"
+		"time"		"10.0, 17.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL40dB"
+		"rndwave"
+		{
+			"wave"	"ambient\atmosphere\hole_hit1.wav"
+			"wave"	"ambient\atmosphere\hole_hit2.wav"
+			"wave"	"ambient\atmosphere\hole_hit3.wav"
+			"wave"	"ambient\atmosphere\hole_hit4.wav"
+			"wave"	"ambient\atmosphere\hole_hit5.wav"
+		}
+	}
+}
+
+"Revo.A3_Lake.Beach_01"
+{
+	"dsp" "25"
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient\atmosphere\drone4lp.wav"
+
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"	"ambient\nature\water\amb_light_waterlap_lp_01.wav"
+
+		"pitch"		"95"
+		"attenuation"	"0"
+	}
+	"playlooping"
+	{
+		"volume"	"1"
+		"wave"	"ambient\nature\water\amb_waterleak_lp_01.wav"
+
+		"pitch"		"100"
+		"position" "0"
+		"attenuation"	"2.5"
+	}
+	"playrandom"
+	{
+		"volume"	"0.8"
+		"pitch"		"100"
+		"time"		"1.0, 7.0"
+		"position"	"random"
+		"soundlevel"	"SNDLVL40dB"
+		"rndwave"
+		{
+			"wave"	"ambient\nature\water\amb_waterdrips_01.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_05.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_08.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_13.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_17.wav"
+			"wave"	"ambient\nature\water\amb_waterdrips_19.wav"
+		}
+	}
+}
+
+
+"Revo.A3_Lake.Beach_01"
+{
+	"dsp" "25"
+	"playsoundscape" {
+		"soundscaope" "Revo.A3_Lake.Beach_01"
+	}
+}
+
+
+"Revo.A3_Lake.Top_01"
+{
+	"dsp" "25"
+	"playsoundscape" {
+		"soundscaope" "Revo.A3_Lake.Beach_01"
+	}
+}
+"Revo.A3_Lake.Top_01_Interior"
+{
+	"dsp" "25"
+	"playsoundscape" {
+		"soundscaope" "Revo.A3_Lake.Beach_01"
+	}
+}
+"Revo.A3_Lake.Offices_01"
+{
+	"dsp" "25"
+	"playsoundscape" {
+		"soundscaope" "Revo.A3_Lake.Beach_01"
+	}
+}
+"Revo.A3_Lake.Offices_02"
+{
+	"dsp" "25"
+	"playsoundscape" {
+		"soundscaope" "Revo.A3_Lake.Beach_01"
+	}
+}
+"Revo.A3_Lake.Garbage"
+{
+	"dsp" "25"
+	"playsoundscape" {
+		"soundscaope" "Revo.A3_Lake.Beach_01"
+	}
+}
+"Revo.A3_Lake.VacRide"
+{
+	"dsp" "5"
+	"playlooping" 
+	{
+		"pitch" "140"
+		"volume" "0.5"
+		"wave" "ambient\atmosphere\drone2lp.wav"
+	}
+	"playlooping" 
+	{
+		"pitch" "130"
+		"volume" "0.9"
+		"wave" "ambient\atmosphere\ind_int_lp_02.wav"
+	}
+}

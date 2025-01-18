@@ -1,0 +1,36 @@
+// sp_a4_schrodinger_flings
+
+// Use the music from a different map since we don't have any music for this map yet
+"music.sp_a4_schrodinger_flings_shrodcube_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"0.8"
+
+	"wave"	"*music/revolution/sp_a4_schrodinger_vertical_shrodcube_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+			"volume_fade_in"
+			{
+				"input_max" "0.25"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.25"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"	"600"
+			}
+			"source_info"
+			{
+				"source"   "entity"
+			}
+		}
+	}
+}

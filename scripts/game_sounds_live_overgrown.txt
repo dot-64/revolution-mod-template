@@ -1,0 +1,80 @@
+"music.live_overgrown"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/live_overgrown/zrezlon_tewangrown_3.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"stop_entry"
+			{
+				"input_execute" "1"	
+				"operator" "sys_stop_entries"
+				"input_max_entries" "0.000000"
+				"match_entity" "false"
+				"match_substring" "true"
+				"match_entry" "music"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"import_stack" "p2_update_music_play_tbeam"
+			"play_entry"
+			{
+				"entry_name" "music.live_overgrown_funnel"
+			}	
+			"stop_entry"
+			{
+				"match_entry" "music.live_overgrown_funnel"
+			}
+		}
+	}
+}
+
+"music.live_overgrown_funnel"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"0.75"
+
+	"wave"	"*music/live_overgrown/zrezlon_tewangrown_3.wav"
+	
+	"soundentry_version" "2"
+	"operator_stacks"
+	{	
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"mixer"
+			{
+				"mixgroup" "unduckedMusic"
+			}
+
+			"volume_fade_in"
+			{
+				"input_max" "3.0"
+				"input_map_min" "0.05"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.75"
+				"input_map_min" "0.05"
+			}
+			"volume_lfo_time_scale"
+			{
+				"input2" "0.3"	
+			}
+			"volume_lfo_scale"
+			{
+				"input2" "0.4"
+			}
+
+		}
+	}
+}

@@ -1,0 +1,135 @@
+// ==================================================== sp_a2_playground
+
+"music.sp_a2_playground_a1"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a2_playground_a1.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_in"
+			{
+				"input_max" "0.5"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "1.0"
+			}
+		}
+		"start_stack"
+		{
+			"stop_entry"
+			{
+				"operator"	"sys_stop_entries"
+				"input_max_entries"	"0.0000"
+				"match_entity"	"false"
+				"match_substring"	"true"
+				"match_entry"	"music"	
+			}
+		}
+	}
+}
+"music.sp_a2_playground_a2"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a2_playground_a2.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_in"
+			{
+				"input_max" "0.5"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "1.0"
+			}
+		}
+		"start_stack"
+		{
+			"stop_entry"
+			{
+				"operator"	"sys_stop_entries"
+				"input_max_entries"	"0.0000"
+				"match_entity"	"false"
+				"match_substring"	"true"
+				"match_entry"	"music"	
+			}
+		}
+	}
+}
+"music.sp_a2_playground_a3"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NONE"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a2_playground_a3.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_in"
+			{
+				"input_max" "0.5"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "1.0"
+			}
+		}
+		"start_stack"
+		{
+			"stop_entry"
+			{
+				"operator"	"sys_stop_entries"
+				"input_max_entries"	"0.0000"
+				"match_entity"	"false"
+				"match_substring"	"true"
+				"match_entry"	"music"	
+			}
+		}
+	}
+}
+"music.sp_a2_playground_turret_takedown"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1"
+
+	"rndwave" {
+		"wave"	"*music/revolution/sp_a2_playground_turret_oneshot_a1.wav"
+		"wave"	"*music/revolution/sp_a2_playground_turret_oneshot_a2.wav"
+		"wave"	"*music/revolution/sp_a2_playground_turret_oneshot_a3.wav"
+	}
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+			"speakers_spatialize"
+			{
+				"input_radius"	"800"
+			}
+		}
+	}
+}

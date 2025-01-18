@@ -1,0 +1,56 @@
+
+// ==================================================== Other
+
+"Spire.PlayerTeleport_01"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"ambient/levels/labs/electric_explosion4.wav"
+}
+
+"Spire.PlayerTeleport_02"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"ambient/levels/labs/electric_explosion5.wav"
+}
+
+"Spire.Revup"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"ambient/levels/spire/spire_teleporter_revup.wav"
+}
+
+"Spire.Activate"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"ambient/levels/spire/spire_teleporter_activate.wav"
+}
+
+"Spire.Explode"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_110dB"
+	"wave"		"ambient/levels/spire/spire_explosion.wav"
+}
+
+"Spire.Tube_Detatch"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_120dB"
+	"wave"		"playonce/level/animation_sfx/a4_finale_pipe_destroy_imp.wav"
+}

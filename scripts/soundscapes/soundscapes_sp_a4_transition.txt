@@ -1,0 +1,41 @@
+"Revo.A4_Finale.MoonChamber"
+{
+	"dsp"	"9"
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient/atmosphere/ind_int_lp_01.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	
+}
+
+"Revo.A4_Finale.MoonHallway"
+{
+	"dsp"	"12"
+
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"wave"		"ambient/atmosphere/ind_int_lp_01.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	
+}
+
+"Revo.A4_Finale.MoonStasis"
+{
+	"dsp"	"16"
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"ambient/atmosphere/ind_int_lp_01.wav"
+		"pitch"		"100"
+		"attenuation"	"0"
+	}
+	
+}

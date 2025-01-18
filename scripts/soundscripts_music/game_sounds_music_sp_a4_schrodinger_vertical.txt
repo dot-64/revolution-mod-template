@@ -1,0 +1,111 @@
+// sp_a4_schrodinger_vertical
+
+"music.sp_a4_schrodinger_vertical_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_NONE"
+	"wave"			"*music/revolution/sp_a4_schrodinger_vertical_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_in"
+			{
+				"input_max" "0.25"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.25"
+			}
+		}
+		"stop_stack"
+		{
+			"stop_entry"
+			{
+				"operator"	"sys_stop_entries"
+				"input_max_entries"	"0.0000"
+				"match_entity"	"false"
+				"match_substring"	"true"
+				"match_entry"	"music"	
+			}
+		}
+	}
+}
+
+"music.sp_a4_schrodinger_vertical_catcher_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"1"
+
+	"wave"	"*music/revolution/sp_a4_schrodinger_vertical_catcher_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a4_schrodinger_vertical_a0"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+			"speakers_spatialize"
+			{
+				"input_radius"	"600"
+			}
+		}
+	}
+}
+"music.sp_a4_schrodinger_vertical_shrodcube_a0"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"		"0.8"
+
+	"wave"	"*music/revolution/sp_a4_schrodinger_vertical_shrodcube_a0.wav"
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "start_sync_to_entry"
+				
+			"elapsed_time"
+			{
+				"entry" "music.sp_a4_schrodinger_vertical_a0"
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" 	"update_music_spatial"
+			"volume_fade_in"
+			{
+				"input_max" "0.25"
+			}
+			"volume_fade_out"
+			{
+				"input_max" "0.25"
+			}
+			"speakers_spatialize"
+			{
+				"input_radius"	"600"
+			}
+			"source_info"
+			{
+				"source"   "entity"
+			}
+		}
+	}
+}
